@@ -1,0 +1,2453 @@
+: 1684243529:0;ls
+: 1684243553:0;sudo vim ./.zshrc
+: 1684243586:0;ls
+: 1684243597:0;sudo vim ./.zshrc
+: 1684243816:0;cd ..
+: 1684243819:0;ls
+: 1684243840:0;sudo rm -rf ./.zshrc
+: 1684243855:0;sudo mv zshrc ./.zshrc
+: 1684243857:0;ls
+: 1684243858:0;zsh
+: 1684245934:0;ls
+: 1684245980:0;cat .zshrc
+: 1684245986:0;cd ~
+: 1684245988:0;cat .zshrc
+: 1684246015:0;sudo vim .zshrc
+: 1684246055:0;source .zshrc
+: 1684246071:0;git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+: 1684246150:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+: 1684246237:0;git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+: 1684246315:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+: 1684246448:0;git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+: 1684246526:0;source .zshrc
+: 1684246544:0;sudo poweroff
+: 1684289500:0;ls
+: 1684290182:0;sudo nmcli device wifi rescan
+: 1684290202:0;nmcli device wifi list
+: 1684290259:0;sudo nmcli device wifi rescan
+: 1684290260:0;nmcli device wifi list
+: 1684290271:0;sudo nmcli device wifi rescan
+: 1684290275:0;nmcli device wifi list
+: 1684290623:0;ls
+: 1684291938:0;lsusb
+: 1684291958:0;ls /dev/tty
+: 1684291982:0;ls /dev/ttyusb
+: 1684291986:0;ls /dev/ttyusb0
+: 1684291991:0;ls /dev/ttyUSB0
+: 1684292090:0;cat .bashrc
+: 1684292110:0;sudo vim .zshrc
+: 1684292137:0;source .zshrc
+: 1684292154:0;roslaunch imu_launch imu_rviz.launch
+: 1684292520:0;roslaunch imu_launch imu_msg.launch
+: 1684292538:0;rostopic echo /IMU_date
+: 1684292544:0;rostopic echo /IMU_data
+: 1684292615:0;ls /dev/ttyUSB*
+: 1684292700:0;ll /dev/*
+: 1684292711:0;ll -a /dev/*
+: 1684292749:0;ll /dev/imu
+: 1684292899:0;roslaunch imu_launch imu_msg.launch
+: 1684292939:0;rostopic list
+: 1684292959:0;rostopic echo /imu_data
+: 1684293015:0;roslaunch imu_launch imu_msg.launch
+: 1684293025:0;rostopic echo /imu_data
+: 1684293046:0;rostopic list
+: 1684293072:0;code .
+: 1684293665:0;cd ..
+: 1684293678:0;catkin_make
+: 1684293790:0;source ../devel/setup.zsh
+: 1684293797:0;roslaunch imu_launch imu_rviz.launch
+: 1684293854:0;rostopic list
+: 1684294336:0;roslaunch imu_launch imu_display_3d.launch
+: 1684294822:0;source .zshrc
+: 1684294837:0;roslaunch imu_launch imu_rviz.launch
+: 1684295066:0;sudo reboot
+: 1684295198:0;code .
+: 1684295213:0;roslaunch imu_launch imu_rviz.launch
+: 1684295573:0;rosclean purge
+: 1684295751:0;roslaunch imu_launch imu_rviz.launch
+: 1684295971:0;catkin_make
+: 1684296030:0;source .zshrc
+: 1684296036:0;source ~/.zshrc
+: 1684296039:0;roslaunch imu_launch imu_rviz.launch
+: 1684297452:0;sudo apt install unicode
+: 1684297511:0;source ~/.zshrc
+: 1684297515:0;roslaunch imu_launch imu_rviz.launch
+: 1684297624:0;./cfw
+: 1684297799:0;roslaunch imu_launch imu_rviz.launch
+: 1684297968:0;cd ..
+: 1684297970:0;catkin_make
+: 1684297983:0;source ~/.zshrc
+: 1684297988:0;roslaunch imu_launch imu_rviz.launch
+: 1684298061:0;rqt
+: 1684298147:0;roslaunch imu_launch imu_msg.launch
+: 1684298254:0;roslaunch imu_launch imu_rviz.launch
+: 1684298262:0;rostopic list
+: 1684298275:0;rostopic echo /imu_data
+: 1684298283:0;rostopic list
+: 1684298313:0;rostopic echo /tf
+: 1684298324:0;rostopic echo /tf_static
+: 1684298333:0;rostopic echo /tf
+: 1684298398:0;rosnode list
+: 1684299088:0;catkin_make
+: 1684299101:0;source ~/.zshrc
+: 1684299109:0;roslaunch imu_launch imu_rviz.launch
+: 1684299150:0;catkin_make
+: 1684300437:0;roslaunch racecar Run_gmapping.launch
+: 1684300463:0;bash
+: 1684300491:0;rosrun racecar racecar_teleop.py
+: 1684300654:0;bash save_map.sh
+: 1684300422:251;roslaunch racecar Run_car.launch
+: 1684300675:0;roslaunch racecar Run_car.launch
+: 1684300688:0;roslaunch racecar amcl_nav.launch
+: 1684300847:0;roslaunch racecar Run_car.launch
+: 1684300850:0;roslaunch racecar amcl_nav.launch
+: 1684301064:0;sudo apt install ros-noetic-imu-tools
+: 1684301111:0;source ~/.zshrc
+: 1684301116:0;roslaunch racecar amcl_nav.launch
+: 1684301154:0;roslaunch imu_launch imu_rviz.launch
+: 1684301191:0;roslaunch racecar Run_car.launch
+: 1684301198:0;roslaunch racecar amcl_nav.launch
+: 1684301854:0;roslaunch racecar Run_car.launch
+: 1684302018:0;roslaunch imu_launch imu_rviz.launch
+: 1684302062:0;roslaunch racecar amcl_nav.launch
+: 1684302367:0;lsusb
+: 1684302830:0;catkin_make
+: 1684302850:0;source ~/.zshrc
+: 1684302859:0;roslaunch imu_launch imu_rviz.launch
+: 1684302908:0;source ~/.zshrc
+: 1684302917:0;roslaunch imu_launch imu_rviz.launch
+: 1684303000:0;cd ~
+: 1684303012:0;sudo vim .zshrc
+: 1684303029:0;source ~/.zshrc
+: 1684303094:0;mkdir -p scnucar_ws/src
+: 1684303099:0;cd scnucar_ws
+: 1684303102:0;catkin_make
+: 1684303191:0;cd src
+: 1684303204:0;git clone https://github.com/wjwwood/serial.git
+: 1684303325:0;./cfw
+: 1684303335:0;git clone https://github.com/wjwwood/serial.git
+: 1684303401:0;cd serial
+: 1684303402:0;ls
+: 1684303405:0;make
+: 1684303516:0;cd ..
+: 1684303520:0;catkin_make
+: 1684303599:0;roslaunch imu_launch imu_msg.launch
+: 1684303614:0;source ./devel/setup.zsh
+: 1684303616:0;roslaunch imu_launch imu_msg.launch
+: 1684303634:0;rostopic echo /imu_data
+: 1684303656:0;rostopic list
+: 1684303665:0;rostopic echo /IMU_data
+: 1684303732:0;roslaunch imu_launch imu_rviz.launch
+: 1684303825:0;rostopic echo /IMU_data
+: 1684303831:0;roslaunch imu_launch imu_msg.launch
+: 1684303836:0;rostopic echo /IMU_data
+: 1684303853:0;make
+: 1684303890:0;make install
+: 1684303910:0;catkin_make
+: 1684303962:0;source ./devel/setup.zsh
+: 1684303967:0;roslaunch imu_launch imu_msg.launch
+: 1684303984:0;rosclean purge
+: 1684303991:0;roslaunch imu_launch imu_msg.launch
+: 1684303998:0;rostopic echo /IMU_data
+: 1684304019:0;rostopic list
+: 1684304053:0;ls /dev/imu
+: 1684304061:0;history
+: 1684304090:0;ll /dev/imu
+: 1684304145:0;rostopic echo /imu_0x91_package
+: 1684304156:0;sudo reboot
+: 1684304237:0;cd scnucar_ws
+: 1684304239:0;source ./devel/setup.zsh
+: 1684304245:0;roslaunch imu_launch imu_msg.launch
+: 1684304252:0;source ./devel/setup.zsh
+: 1684304259:0;rostopic echo /IMU_data
+: 1684304284:0;cd ..
+: 1684304292:0;cd ROS-Autocar
+: 1684304294:0;source ./devel/setup.zsh
+: 1684304298:0;roslaunch imu_launch imu_msg.launch
+: 1684304303:0;rostopic echo /IMU_data
+: 1684304485:0;make
+: 1684304493:0;make install
+: 1684304537:0;catkin_make
+: 1684304605:0;sudo chmod +777 /dev/ttyUSB0
+: 1684304608:0;sudo chmod +777 /dev/ttyUSB1
+: 1684304612:0;sudo chmod +777 /dev/ttyUSB2
+: 1684304614:0;sudo chmod +777 /dev/ttyUSB3
+: 1684304677:0;source ./devel/setup.zsh
+: 1684304684:0;roslaunch imu_launch imu_msg.launch
+: 1684304908:0;sudo vim .zshrc
+: 1684304975:0;rostopic list
+: 1684304984:0;roscore
+: 1684304995:0;rostopic list
+: 1684305002:0;source ./devel/setup.zsh
+: 1684305006:0;roslaunch imu_launch imu_msg.launch
+: 1684305014:0;rostopic list
+: 1684305030:0;rostopic echo /IMU_data
+: 1684305127:0;catkin_make
+: 1684305136:0;roslaunch imu_launch imu_msg.launch
+: 1684305158:0;code .
+: 1684305243:0;cd ..
+: 1684305253:0;git init
+: 1684305292:0;cd ..
+: 1684305297:0;code .
+: 1684305731:0;git config --global user.email "codealan@qq.com" && git config --global user.name "codealan"
+: 1684305839:0;roslaunch imu_launch imu_rviz.launch
+: 1684306187:0;lsusb
+: 1684306212:0;ll /dev/laser
+: 1684306249:0;catkin_make
+: 1684306307:0;ls
+: 1684306319:0;source ./devel/setup.zsh
+: 1684306342:0;roslaunch ls01b_v2 ls01b_v2.launch
+: 1684306355:0;rostopic echo /scan
+: 1684306405:0;roslaunch ls01b_v2 ls01b_v2.launch
+: 1684306410:0;rostopic echo /scan
+: 1684306658:0;sudo chmod +777 /dev/imu
+: 1684306664:0;sudo chmod +777 /dev/laser
+: 1684306671:0;sudo chmod +777 /dev/encoder
+: 1684306688:0;sudo chmod +777 /dev/car
+: 1684306843:0;source ./devel/setup.zsh
+: 1684306849:0;roslaunch ls01b_v2 ls01b_v2.launch
+: 1684306878:0;rviz
+: 1684307010:0;roslaunch ls01b_v2 ls01b_v2.launch
+: 1684307054:0;rosrun rviz rviz
+: 1684307165:0;roslaunch imu_launch imu_rviz.launch
+: 1684307198:0;zsh
+: 1684307203:0;source ./devel/setup.zsh
+: 1684307209:0;roslaunch imu_launch imu_rviz.launch
+: 1684307229:0;source ./devel/setup.zsh
+: 1684307236:0;roslaunch ls01b_v2 ls01b_v2.launch
+: 1684307242:0;cd ..
+: 1684307249:0;cd scnucar_ws
+: 1684307250:0;source ./devel/setup.zsh
+: 1684307255:0;rosrun rviz rviz
+: 1684307314:0;source ./devel/setup.zsh
+: 1684307320:0;roslaunch imu_launch imu_rviz.launch
+: 1684307337:0;rosclean purge
+: 1684307388:0;source ./devel/setup.zsh
+: 1684307393:0;roslaunch ls01b_v2 ls01b_v2.launch
+: 1684307397:0;source ./devel/setup.zsh
+: 1684307402:0;rosrun rviz rviz
+: 1684306952:3;catkin_make
+: 1684307922:0;catkin_make
+: 1684308002:0;sudo chmod +777 Encoder_vel.py
+: 1684308015:0;roscore
+: 1684308028:0;cd ~/scnucar_ws
+: 1684308030:0;source ./devel/setup.zsh
+: 1684308035:0;roscore
+: 1684308085:0;python3 Encoder_vel.py
+: 1684308099:0;rostopic echo /encoder
+: 1684308141:0;rostopic echo /encoder_imu_odom
+: 1684308173:0;catkin_make
+: 1684308198:0;source ./devel/setup.zsh
+: 1684308212:0;roscore
+: 1684308224:0;python3 Encoder_vel.py
+: 1684308246:0;rostopic echo /encoder
+: 1684308295:0;sudo poweroff
+: 1684311641:0;catkin_make
+: 1684311723:0;roscore
+: 1684311734:0;source ./devel/setup.zsh
+: 1684311741:0;roslaunch imu_launch imu_rviz.launch
+: 1684311811:0;code .
+: 1684312235:0;roscore
+: 1684312250:0;cd src/encoder_driver
+: 1684312251:0;ls
+: 1684312253:0;cd src
+: 1684312254:0;ls
+: 1684312259:0;python3 Encoder_vel.py
+: 1684312270:0;rostopic echo /encoder
+: 1684312422:0;catkin_make
+: 1684312996:0;cd scnucar_ws
+: 1684312997:0;source ./devel/setup.zsh
+: 1684313020:0;roslaunch racecar Run_car.launch\
+: 1684313025:0;roslaunch racecar Run_car.launch
+: 1684313043:0;rostopic echo /encoder
+: 1684313054:0;rostopic echo /scan
+: 1684313064:0;rostopic echo /IMU_data
+: 1684313122:0;rostopic echo /encoder
+: 1684313124:0;rostopic echo /scan
+: 1684313127:0;rostopic echo /IMU_data
+: 1684313157:0;rosrun rqt_tf_tree rqt_tf_tree
+: 1684313778:0;catkin_make
+: 1684314579:0;source ./devel/setup.zsh
+: 1684314588:0;roslaunch ls01b_v2 ls01b_v2.launch
+: 1684314600:0;source ./devel/setup.zsh
+: 1684314659:0;roslaunch rf2o_laser_odmoetry rf2o_laser_odometry.launch
+: 1684314680:0;source ./devel/setup.zsh
+: 1684314682:0;roslaunch rf2o_laser_odmoetry rf2o_laser_odometry.launch
+: 1684314700:0;roslaunch rf2o_laser_odometry rf2o_laser_odometry.launch
+: 1684314713:0;source ./devel/setup.zsh
+: 1684314732:0;rosrun rviz rviz
+: 1684315114:0;catkin_make
+: 1684315152:0;so
+: 1684315158:0;source ./devel/setup.zsh
+: 1684315175:0;roslaunch imu_launch imu_msg.launch
+: 1684315180:0;source ./devel/setup.zsh
+: 1684315189:0;rosrun encoder_driver  Encoder_vel.py
+: 1684315196:0;source ./devel/setup.zsh
+: 1684315202:0;roslaunch encoder_driver  wheel_odom.launch
+: 1684315207:0;source ./devel/setup.zsh
+: 1684315212:0;rostopic echo /encoder_imu_odom
+: 1684315605:0;roslaunch racecar Run_car.launch
+: 1684315621:0;roslaunch racecar Run_gmapping.launch
+: 1684315648:0;source ./devel/setup.zsh
+: 1684315661:0;rosrun racecar racecar_teleop.py
+: 1684315674:0;source ./devel/setup.zsh
+: 1684315677:0;rosrun racecar racecar_teleop.py
+: 1684315730:0;sudo chmod +777 racecar_teleop.py
+: 1684315737:0;rosrun racecar racecar_teleop.py
+: 1684315830:0;sudo poweroff
+: 1684315931:0;pwd
+: 1684315950:0;cd ~
+: 1684315956:0;sudo vim .zshrc
+: 1684316006:0;roslaunch racecar Run_car.launch
+: 1684316013:0;roslaunch racecar Run_gmapping.launch
+: 1684316025:0;rosrun racecar racecar_teleop.py
+: 1684316122:0;sudo poweroff
+: 1684319822:0;roslaunch racecar Run_car.launch
+: 1684319828:0;roslaunch racecar Run_gmapping.launch
+: 1684319867:0;rosrun racecar racecar_teleop.py
+: 1684319971:0;roslaunch racecar Run_car.launch
+: 1684319974:0;roslaunch racecar Run_gmapping.launch
+: 1684319995:0;rosrun racecar racecar_teleop.py
+: 1684320123:0;bash save_map.sh
+: 1684320199:0;pwd
+: 1684320218:0;source ./devel/setup.zsh
+: 1684320238:0;cd s
+: 1684320242:0;cd scnucar_ws
+: 1684320250:0;roslaunch racecar Run_car.launch
+: 1684320265:0;roslaunch racecar amcl_nav.launch
+: 1684320370:0;source ./devel/setup.zsh
+: 1684320372:0;roslaunch racecar amcl_nav.launch
+: 1684320541:0;roslaunch racecar Run_car.launch
+: 1684320546:0;roslaunch racecar amcl_nav.launch
+: 1684320819:0;roslaunch racecar amcl_nav_no_control.launch
+: 1684320867:0;roslaunch racecar Run_car.launch
+: 1684320880:0;roslaunch racecar Run_gmapping.launch
+: 1684320895:0;source ./devel/setup.zsh
+: 1684320902:0;rosrun racecar racecar_teleop.py
+: 1684321026:0;bash save_map.sh
+: 1684321096:0;roslaunch racecar Run_car.launch
+: 1684321106:0;roslaunch racecar amcl_nav.launch
+: 1684321643:0;rosrun racecar racecar_teleop.py
+: 1684321709:0;roslaunch racecar Run_car.launch
+: 1684321723:0;roslaunch racecar amcl_nav.launch
+: 1684322093:0;rostopic echo /cmd_vel
+: 1684322152:0;rostopic echo /car/cmd_vel /
+: 1684322164:0;rostopic echo /car/cmd_vel
+: 1684322733:0;source ./devel/setup.zsh
+: 1684322737:0;catkin_make
+: 1684322746:0;source ./devel/setup.zsh
+: 1684322752:0;roslaunch racecar amcl_nav.launch
+: 1684329606:0;ls
+: 1684330047:0;roslaunch racecar Run_car.launch
+: 1684330065:0;roslaunch racecar amcl_nav_copy.launch
+: 1684330421:0;roslaunch racecar amcl_nav.launch
+: 1684331041:0;rostopic list
+: 1684331049:0;roscore
+: 1684331058:0;rostopic
+: 1684331063:0;rostopic list
+: 1684331981:0;cd ROS-Autocar
+: 1684331984:0;source ./devel/setup.zsh
+: 1684332034:0;roslaunch racecar Run_car.launch
+: 1684332182:0;roslaunch racecar amcl_nav.launch
+: 1684332236:0;roslaunch racecar amcl_nav_copy.launch
+: 1684333250:0;cd ..
+: 1684333252:0;cd scnucar_ws
+: 1684333255:0;source ./devel/setup.zsh
+: 1684333259:0;cd s
+: 1684333264:0;cd scnucar_ws
+: 1684333267:0;source ./devel/setup.zsh
+: 1684333275:0;roslaunch racecar Run_car.launch
+: 1684333280:0;roslaunch racecar amcl_nav.launch
+: 1684333597:0;sudo poweroff
+: 1684399874:0;./cfw
+: 1684399917:0;ping baidu.com
+: 1684401443:0;catkin_make
+: 1684401451:0;cd scnucar_ws
+: 1684401459:0;source ./devel/setup.zsh
+: 1684401472:0;roslaunch racecar Run_car.launch
+: 1684401488:0;roslaunch racecar Run_gmapping.launch
+: 1684401505:0;rosrun racecar racecar_teleop.py
+: 1684401670:0;bash save_map.sh
+: 1684401710:0;roslaunch racecar Run_car.launch
+: 1684401716:0;roslaunch racecar amcl_nav.launch
+: 1684401858:0;cat save_map.sh
+: 1684401873:0;roslaunch racecar Run_car.launch
+: 1684401876:0;roslaunch racecar amcl_nav.launch
+: 1684402235:0;roslaunch racecar Run_car.launch
+: 1684402282:0;roslaunch racecar amcl_nav.launch
+: 1684406915:0;sudo poweroff
+: 1684416778:0;roslaunch racecar Run_car.launch
+: 1684416785:0;roslaunch racecar amcl_nav.launch
+: 1684416936:0;roslaunch racecar Run_car.launch
+: 1684416940:0;roslaunch racecar amcl_nav.launch
+: 1684416969:0;catkin_make
+: 1684417129:0;roslaunch racecar amcl_nav.launch
+: 1684417736:0;sudo vim .zshrc
+: 1684417754:0;sudo poweroff
+: 1684423511:0;roslaunch racecar Run_car.launch
+: 1684423525:0;roslaunch racecar Run_gmapping.launch
+: 1684423542:0;rosrun racecar racecar_teleop.py
+: 1684423687:0;roslaunch racecar Run_car.launch
+: 1684423689:0;roslaunch racecar Run_gmapping.launch
+: 1684423703:0;rosrun racecar racecar_teleop.py
+: 1684424111:0;bash save_map.sh
+: 1684424415:0;roslaunch racecar Run_car.launch
+: 1684424455:0;roslaunch racecar amcl_nav.launch
+: 1684425087:0;roslaunch racecar Run_car.launch
+: 1684425090:0;roslaunch racecar Run_gmapping.launch
+: 1684425091:0;rosrun racecar racecar_teleop.py
+: 1684425271:0;roslaunch racecar Run_car.launch
+: 1684425277:0;roslaunch racecar Run_gmapping.launch
+: 1684425283:0;rosrun racecar racecar_teleop.py
+: 1684425497:0;roslaunch racecar Run_car.launch
+: 1684425501:0;roslaunch racecar Run_gmapping.launch
+: 1684425508:0;rosrun racecar racecar_teleop.py
+: 1684425841:0;bash save_map.sh
+: 1684426328:0;roslaunch racecar Run_car.launch
+: 1684426331:0;roslaunch racecar amcl_nav.launch
+: 1684427278:0;roslaunch racecar amcl_nav.launch\
+: 1684427280:0;roslaunch racecar amcl_nav.launch
+: 1684427913:0;catkin_make
+: 1684428228:0;roslaunch racecar amcl_nav.launch
+: 1684428777:0;roslaunch racecar Run_gmapping.launch
+: 1684428785:0;roslaunch racecar amcl_nav.launch
+: 1684429065:0;ll -a\
+: 1684429067:0;ll -a
+: 1684429091:0;sudo chmod +777 getpoints.py
+: 1684429099:0;sudo chmod +777 goal_loop.py
+: 1684429120:0;python3 getpoints.py
+: 1684429134:0;roslaunch racecar amcl_nav.launch
+: 1684429439:0;python3 getpoints.py
+: 1684429445:0;roslaunch racecar amcl_nav.launch
+: 1684429515:0;python3 goal_loop.py
+: 1684429599:0;roslaunch racecar amcl_nav.launch
+: 1684429614:0;python3 goal_loop.py
+: 1684429734:0;roslaunch racecar amcl_nav.launch
+: 1684430761:0;ll
+: 1684430782:0;roslaunch racecar Run_car.launch
+: 1684430785:0;roslaunch racecar amcl_nav.launch
+: 1684430814:0;sudo chmod +777 get_pos_advertise.py
+: 1684430829:0;sudo chmod +777 get_pos_sub.py
+: 1684430841:0;sudo chmod +777 goal_loop.py
+: 1684430953:0;roslaunch racecar Run_car.launch
+: 1684430972:0;roslaunch racecar amcl_nav.launch
+: 1684430999:0;python3 get_pos_advertise.py
+: 1684431003:0;python3 get_pos_sub.py
+: 1684431079:0;roslaunch racecar amcl_nav.launch
+: 1684431095:0;python3 goal_loop.py
+: 1684431230:0;python3 get_pos_advertise.py
+: 1684431245:0;python3 get_pos_sub.py
+: 1684431304:0;roslaunch racecar Run_car.launch
+: 1684431307:0;roslaunch racecar amcl_nav.launch
+: 1684431316:0;python3 goal_loop.py
+: 1684431448:0;roslaunch racecar amcl_nav.launch
+: 1684431459:0;python3 goal_loop.py
+: 1684431513:0;roslaunch racecar amcl_nav.launch
+: 1684431644:0;sudo poweroff
+: 1684439380:0;sudo chmod +777 goal_loop.py
+: 1684439387:0;sudo chmod +777 getpoints.py
+: 1684439415:0;roslaunch racecar Run_car.launch
+: 1684439424:0;roslaunch racecar amcl_nav.launch
+: 1684439447:0;python3 getpoints.py
+: 1684439703:0;python3 goal_loop.py
+: 1684439786:0;roslaunch racecar amcl_nav.launch
+: 1684439808:0;python3 getpoints.py
+: 1684440125:0;python3 goal_loop.py
+: 1684440304:0;roslaunch racecar amcl_nav.launch
+: 1684441034:0;python3 goal_loop.py
+: 1684441160:0;roslaunch racecar amcl_nav.launch
+: 1684441172:0;python3 goal_loop.py
+: 1684441201:0;roslaunch racecar amcl_nav.launch
+: 1684441295:0;roslaunch racecar amcl_nav.launch\
+: 1684441299:0;roslaunch racecar amcl_nav.launch
+: 1684441309:0;python3 getpoints.py
+: 1684441512:0;roslaunch racecar amcl_nav.launch
+: 1684441528:0;python3 goal_loop.py
+: 1684441739:0;roslaunch racecar amcl_nav.launch
+: 1684441781:0;python3 goal_loop.py
+: 1684441943:0;roslaunch racecar amcl_nav.launch
+: 1684441949:0;python3 goal_loop.py
+: 1684441987:0;roslaunch racecar amcl_nav.launch
+: 1684442083:0;python3 getpoints.py
+: 1684442233:0;roslaunch racecar amcl_nav.launch
+: 1684442243:0;python3 getpoints.py
+: 1684442395:0;roslaunch racecar amcl_nav.launch
+: 1684442413:0;python3 goal_loop.py
+: 1684442491:0;roslaunch racecar amcl_nav.launch
+: 1684442503:0;python3 goal_loop.py
+: 1684442594:0;roslaunch racecar amcl_nav.launch
+: 1684442604:0;python3 goal_loop.py
+: 1684442745:0;roslaunch racecar amcl_nav.launch
+: 1684442801:0;python3 getpoints.py
+: 1684443006:0;roslaunch racecar amcl_nav.launch
+: 1684443021:0;python3 goal_loop.py
+: 1684443137:0;roslaunch racecar amcl_nav.launch
+: 1684443142:0;python3 getpoints.py
+: 1684443262:0;roslaunch racecar amcl_nav.launch
+: 1684443342:0;python3 getpoints.py
+: 1684443450:0;roslaunch racecar amcl_nav.launch
+: 1684443472:0;python3 getpoints.py
+: 1684443534:0;roslaunch racecar amcl_nav.launch
+: 1684443542:0;python3 getpoints.py
+: 1684443661:0;roslaunch racecar amcl_nav.launch
+: 1684443675:0;python3 getpoints.py
+: 1684443822:0;roslaunch racecar amcl_nav.launch
+: 1684443840:0;python3 getpoints.py
+: 1684443976:0;roslaunch racecar Run_car.launch
+: 1684443980:0;roslaunch racecar amcl_nav.launch
+: 1684443985:0;python3 getpoints.py
+: 1684444156:0;roslaunch racecar amcl_nav.launch
+: 1684444203:0;python3 goal_loop.py
+: 1684444271:0;roslaunch racecar amcl_nav.launch
+: 1684444281:0;python3 getpoints.py
+: 1684444336:0;roslaunch racecar amcl_nav.launch
+: 1684444343:0;python3 getpoints.py
+: 1684444466:0;roslaunch racecar amcl_nav.launch
+: 1684444616:0;python3 getpoints.py
+: 1684444698:0;roslaunch racecar amcl_nav.launch
+: 1684444726:0;python3 getpoints.py
+: 1684444765:0;roslaunch racecar amcl_nav.launch
+: 1684444771:0;python3 getpoints.py
+: 1684445021:0;roslaunch racecar amcl_nav.launch
+: 1684445028:0;python3 getpoints.py
+: 1684445142:0;roslaunch racecar amcl_nav.launch
+: 1684445159:0;python3 getpoints.py
+: 1684445363:0;roslaunch racecar amcl_nav.launch
+: 1684445376:0;python3 goal_loop.py
+: 1684445591:0;roslaunch racecar amcl_nav.launch
+: 1684445608:0;python3 goal_loop.py
+: 1684445736:0;sudo poweroff
+: 1684478842:0;roslaunch racecar Run_car.launch
+: 1684478846:0;roslaunch racecar amcl_nav.launch
+: 1684478873:0;python3 goal_loop.py
+: 1684478925:0;roslaunch racecar amcl_nav.launch
+: 1684478934:0;python3 goal_loop.py
+: 1684479027:0;roslaunch racecar Run_car.launch
+: 1684479079:0;roslaunch racecar Run_gmapping.launch
+: 1684479438:0;bash save_map.sh
+: 1684479761:0;python3 goal_loop.py
+: 1684479888:0;ls
+: 1684479932:0;python3 getpoints.py
+: 1684480017:0;roslaunch racecar Run_car.launch
+: 1684479747:265;roslaunch racecar amcl_nav.launch
+: 1684480021:0;roslaunch racecar amcl_nav.launch
+: 1684480258:0;python3 getpoints.py
+: 1684480317:0;roslaunch racecar amcl_nav.launch
+: 1684480390:0;python3 getpoints.py
+: 1684480445:0;roslaunch racecar amcl_nav.launch
+: 1684480452:0;python3 getpoints.py
+: 1684480566:0;roslaunch racecar amcl_nav.launch
+: 1684480578:0;python3 getpoints.py
+: 1684480669:0;roslaunch racecar amcl_nav.launch
+: 1684480674:0;python3 getpoints.py
+: 1684480782:0;roslaunch racecar amcl_nav.launch
+: 1684480788:0;python3 getpoints.py
+: 1684480869:0;roslaunch racecar amcl_nav.launch
+: 1684481022:0;python3 getpoints.py
+: 1684481151:0;roslaunch racecar amcl_nav.launch
+: 1684481281:0;python3 getpoints.py
+: 1684481533:0;roslaunch racecar Run_gmapping.launch
+: 1684481737:0;bash save_map.sh
+: 1684481904:0;roslaunch racecar Run_car.launch
+: 1684481911:0;roslaunch racecar amcl_nav.launch
+: 1684481933:0;rosclean purge
+: 1684481959:0;python3 goal_loop.py
+: 1684481982:0;roslaunch racecar amcl_nav.launch
+: 1684482064:0;roslaunch racecar Run_gmapping.launch
+: 1684482070:0;roslaunch racecar amcl_nav.launch
+: 1684482179:0;roslaunch racecar Run_car.launch
+: 1684482183:0;roslaunch racecar Run_gmapping.launch
+: 1684483028:0;bash save_map.sh
+: 1684483061:0;roslaunch racecar amcl_nav.launch
+: 1684481996:1071;python3 getpoints.py
+: 1684483074:0;python3 goal_loop.py
+: 1684483380:0;roslaunch racecar amcl_nav.launch
+: 1684483416:0;python3 goal_loop.py
+: 1684483448:0;roslaunch racecar amcl_nav.launch
+: 1684483472:0;python3 goal_loop.py
+: 1684483559:0;python3 getpoints.py
+: 1684483689:0;roslaunch racecar amcl_nav.launch
+: 1684483708:0;python3 goal_loop.py
+: 1684483758:0;python3 getpoints.py
+: 1684483835:0;roslaunch racecar amcl_nav.launch
+: 1684483924:0;python3 goal_loop.py
+: 1684483972:0;python3 getpoints.py
+: 1684484179:0;roslaunch racecar amcl_nav.launch
+: 1684484202:0;python3 goal_loop.py
+: 1684484290:0;roslaunch racecar amcl_nav.launch
+: 1684484301:0;python3 goal_loop.py
+: 1684484394:0;python3 getpoints.py
+: 1684484379:88;roslaunch racecar amcl_nav.launch
+: 1684484528:0;roslaunch racecar amcl_nav.launch
+: 1684484540:0;python3 goal_loop.py
+: 1684484573:0;roslaunch racecar amcl_nav.launch
+: 1684484669:0;python3 getpoints.py
+: 1684484754:0;roslaunch racecar amcl_nav.launch
+: 1684484783:0;python3 getpoints.py
+: 1684484881:0;roslaunch racecar amcl_nav.launch
+: 1684484888:0;python3 getpoints.py
+: 1684484941:0;roslaunch racecar amcl_nav.launch
+: 1684484992:0;python3 getpoints.py
+: 1684485247:0;roslaunch racecar amcl_nav.launch
+: 1684485264:0;python3 getpoints.py
+: 1684485464:0;roslaunch racecar amcl_nav.launch
+: 1684485470:0;python3 getpoints.py
+: 1684485600:0;roslaunch racecar amcl_nav.launch
+: 1684485656:0;python3 getpoints.py
+: 1684485761:0;roslaunch racecar amcl_nav.launch
+: 1684485786:0;python3 getpoints.py
+: 1684485949:0;roslaunch racecar amcl_nav.launch
+: 1684485952:0;python3 getpoints.py
+: 1684486055:0;roslaunch racecar amcl_nav.launch
+: 1684486057:0;python3 getpoints.py
+: 1684486154:0;roslaunch racecar amcl_nav.launch
+: 1684486157:0;python3 getpoints.py
+: 1684486320:0;roslaunch racecar amcl_nav.launch
+: 1684486326:0;python3 getpoints.py
+: 1684486470:0;roslaunch racecar amcl_nav.launch
+: 1684486797:0;scp scnucar_ws.zip codealan@192.168.97.220:~/
+: 1684486849:0;scp scnucar_ws.zip codealan@192.168.5.2:~/
+: 1684486944:0;uanme
+: 1684486946:0;uname
+: 1684486950:0;uname -a
+: 1684486959:0;exit
+: 1684487086:0;sudo poweroff
+: 1684487001:20;scp scnucar_ws.zip DESKTOP-AS2MPAL@192.168.5.2:~/
+: 1684491094:0;roslaunch racecar Run_car.launch
+: 1684491098:0;roslaunch racecar amcl_nav.launch
+: 1684491272:0;python3 getpoints.py
+: 1684491362:0;roslaunch racecar amcl_nav.launch
+: 1684491371:0;python3 getpoints.py
+: 1684491492:0;roslaunch racecar amcl_nav.launch
+: 1684491522:0;python3 getpoints.py
+: 1684491700:0;roslaunch racecar amcl_nav.launch
+: 1684491711:0;python3 goal_loop.py
+: 1684491759:0;roslaunch racecar amcl_nav.launch
+: 1684491766:0;python3 goal_loop.py
+: 1684491795:0;roslaunch racecar amcl_nav.launch
+: 1684491805:0;python3 getpoints.py
+: 1684491924:0;roslaunch racecar amcl_nav.launch
+: 1684491926:0;python3 getpoints.py
+: 1684491947:0;roslaunch racecar amcl_nav.launch
+: 1684491949:0;python3 getpoints.py
+: 1684492083:0;roslaunch racecar amcl_nav.launch
+: 1684492116:0;python3 getpoints.py
+: 1684492332:0;roslaunch racecar amcl_nav.launch
+: 1684492374:0;python3 goal_loop.py
+: 1684492379:0;roslaunch racecar amcl_nav.launch
+: 1684492389:0;python3 goal_loop.py
+: 1684492419:0;python3 getpoints.py
+: 1684492615:0;roslaunch racecar amcl_nav.launch
+: 1684492622:0;python3 goal_loop.py
+: 1684492722:0;roslaunch racecar amcl_nav.launch
+: 1684492731:0;python3 goal_loop.py
+: 1684492823:0;roslaunch racecar amcl_nav.launch
+: 1684492829:0;python3 goal_loop.py
+: 1684492898:0;roslaunch racecar amcl_nav.launch
+: 1684492988:0;python3 goal_loop.py
+: 1684493014:0;roslaunch racecar amcl_nav.launch
+: 1684493094:0;python3 goal_loop.py
+: 1684493796:0;roslaunch racecar Run_car.launch
+: 1684493800:0;roslaunch racecar amcl_nav.launch
+: 1684493810:0;python3 goal_loop.py
+: 1684494016:0;roslaunch racecar amcl_nav.launch
+: 1684494047:0;python3 getpoints.py
+: 1684494227:0;roslaunch racecar amcl_nav.launch
+: 1684494243:0;python3 getpoints.py
+: 1684494472:0;roslaunch racecar amcl_nav.launch
+: 1684494479:0;python3 goal_loop.py
+: 1684494586:0;catkin_make
+: 1684494610:0;roslaunch racecar amcl_nav.launch
+: 1684494619:0;python3 goal_loop.py
+: 1684494694:0;roslaunch racecar amcl_nav.launch
+: 1684494795:0;python3 goal_loop.py
+: 1684494860:0;roslaunch racecar amcl_nav.launch
+: 1684494881:0;python3 getpoints.py
+: 1684495009:0;roslaunch racecar amcl_nav.launch
+: 1684495015:0;python3 getpoints.py
+: 1684495113:0;roslaunch racecar amcl_nav.launch
+: 1684495181:0;python3 getpoints.py
+: 1684495248:0;roslaunch racecar amcl_nav.launch
+: 1684495253:0;python3 getpoints.py
+: 1684495363:0;roslaunch racecar amcl_nav.launch
+: 1684495374:0;python3 getpoints.py
+: 1684495429:0;roslaunch racecar amcl_nav.launch
+: 1684495455:0;python3 getpoints.py
+: 1684495643:0;roslaunch racecar amcl_nav.launch
+: 1684495645:0;python3 getpoints.py
+: 1684495731:0;roslaunch racecar amcl_nav.launch
+: 1684495828:0;python3 getpoints.py
+: 1684495998:0;sudo poweroff
+: 1684498130:0;roslaunch racecar Run_car.launch
+: 1684498152:0;roslaunch racecar amcl_nav.launch
+: 1684498240:0;sudo poweroff
+: 1684498312:0;roslaunch racecar Run_car.launch
+: 1684498317:0;roslaunch racecar amcl_nav.launch
+: 1684498801:0;roslaunch racecar Run_car.launch
+: 1684498817:0;roslaunch racecar amcl_nav.launch
+: 1684498870:0;python3 getpoints.py
+: 1684499000:0;roslaunch racecar amcl_nav.launch
+: 1684499008:0;python3 getpoints.py
+: 1684499236:0;roslaunch racecar amcl_nav.launch
+: 1684499239:0;python3 getpoints.py
+: 1684499347:0;roslaunch racecar amcl_nav.launch
+: 1684499356:0;python3 getpoints.py
+: 1684499466:0;roslaunch racecar amcl_nav.launch
+: 1684499542:0;python3 getpoints.py
+: 1684499567:0;roslaunch racecar amcl_nav.launch
+: 1684499677:0;python3 getpoints.py
+: 1684499753:0;sudo poweroff
+: 1684503164:0;catkin_make
+: 1684503196:0;roslaunch racecar amcl_nav.launch
+: 1684503234:0;python3 getpoints.py
+: 1684503269:0;roslaunch racecar amcl_nav.launch
+: 1684503367:0;python3 getpoints.py
+: 1684503464:0;roslaunch racecar amcl_nav.launch
+: 1684503481:0;python3 getpoints.py
+: 1684503518:0;roslaunch racecar amcl_nav.launch
+: 1684503521:0;python3 getpoints.py
+: 1684503625:0;roslaunch racecar amcl_nav.launch
+: 1684503715:0;roslaunch racecar Run_gmapping.launch
+: 1684504116:0;bash save_map.sh
+: 1684503191:952;roslaunch racecar Run_car.launch
+: 1684504144:0;roslaunch racecar Run_car.launch
+: 1684504150:0;roslaunch racecar amcl_nav.launch
+: 1684504172:0;python3 getpoints.py
+: 1684504271:0;roslaunch racecar amcl_nav.launch
+: 1684504331:0;python3 getpoints.py
+: 1684504441:0;roslaunch racecar amcl_nav.launch
+: 1684504478:0;python3 getpoints.py
+: 1684504747:0;roslaunch racecar amcl_nav.launch
+: 1684504758:0;python3 goal_loop.py
+: 1684504842:0;roslaunch racecar amcl_nav.launch
+: 1684504856:0;python3 getpoints.py
+: 1684505091:0;roslaunch racecar amcl_nav.launch
+: 1684505097:0;python3 goal_loop.py
+: 1684505204:0;sudo poweroff
+: 1684507454:0;roslaunch racecar Run_car.launch
+: 1684507460:0;roslaunch racecar amcl_nav.launch
+: 1684507477:0;python3 goal_loop.py
+: 1684507657:0;clear
+: 1684507748:0;roslaunch racecar Run_car.launch
+: 1684507752:0;roslaunch racecar amcl_nav.launch
+: 1684507755:0;python3 goal_loop.py
+: 1684507804:0;roslaunch racecar Run_car.launch
+: 1684507807:0;roslaunch racecar amcl_nav.launch
+: 1684507817:0;python3 goal_loop.py
+: 1684507900:0;sudo poweroff
+: 1686314409:0;cd ./scnu-car
+: 1686314409:0;ls
+: 1686314424:0;cd ./ROS-Autocar
+: 1686314425:0;ls
+: 1686314457:0;roslaunch racecar Run_car.launch
+: 1686314469:0;roslaunch racecar Run_gmapping.launch
+: 1686316122:0;bash save_map.sh
+: 1686316194:0;roslaunch racecar amcl_nav.launch
+: 1686316229:0;python3 getpoints.py
+: 1686316237:0;ls
+: 1686316371:0;python3 getpoints.py
+: 1686316726:0;roslaunch racecar amcl_nav.launch
+: 1686316810:0;python3 getpoints.py
+: 1686316813:0;roslaunch racecar Run_car.launch
+: 1686316816:0;roslaunch racecar amcl_nav.launch
+: 1686316976:0;python3 getpoints.py
+: 1686317193:0;roslaunch racecar amcl_nav.launch
+: 1686317202:0;python goal_loop.py
+: 1686317217:0;python3 goal_loop.py
+: 1686317287:0;roslaunch racecar amcl_nav.launch
+: 1686317295:0;python3 goal_loop.py
+: 1686317469:0;roslaunch racecar amcl_nav.launch
+: 1686317491:0;python3 getpoints.py
+: 1686317510:0;roslaunch racecar amcl_nav.launch
+: 1686317607:0;python3 goal_loop.py
+: 1686318427:0;roslaunch racecar amcl_nav.launch
+: 1686318464:0;python3 goal_loop.py
+: 1686321464:0;roslaunch racecar Run_car.launch
+: 1686321471:0;roslaunch racecar amcl_nav.launch
+: 1686321544:0;python3 goal_loop.py
+: 1686321617:0;roslaunch racecar amcl_nav.launch
+: 1686321630:0;python3 getpoints.py
+: 1686321669:0;roslaunch racecar amcl_nav.launch
+: 1686321683:0;python3 goal_loop.py
+: 1686321789:0;roslaunch racecar amcl_nav.launch
+: 1686321796:0;python3 getpoints.py
+: 1686321966:0;roslaunch racecar amcl_nav.launch
+: 1686322056:0;python3 goal_loop.py
+: 1686322116:0;roslaunch racecar amcl_nav.launch
+: 1686322181:0;python3 goal_loop.py
+: 1686322276:0;roslaunch racecar amcl_nav.launch
+: 1686322287:0;python3 goal_loop.py
+: 1686322655:0;roslaunch racecar Run_car.launch
+: 1686322660:0;roslaunch racecar amcl_nav.launch
+: 1686322678:0;python3 goal_loop.py
+: 1686322741:0;roslaunch racecar amcl_nav.launch
+: 1686322748:0;python3 goal_loop.py
+: 1686322922:0;roslaunch racecar Run_car.launch
+: 1686322924:0;roslaunch racecar amcl_nav.launch
+: 1686322940:0;python3 goal_loop.py
+: 1686323018:0;sudo poweroff
+: 1695200810:0;ls
+: 1695200828:0;cd ./ROS-Autocar
+: 1695200830:0;ls
+: 1695200835:0;cd ./src
+: 1695200838:0;ls
+: 1695200890:0;roslaunch racecar Run_car.launch
+: 1695200908:0;ls
+: 1695200915:0;cd ./ROS-Autocar
+: 1695200930:0;ls
+: 1695200934:0;cd ./src
+: 1695200935:0;ls
+: 1695200944:0;cd ./racecar
+: 1695200945:0;ls
+: 1695200953:0;cd ./src
+: 1695200954:0;;s
+: 1695200956:0;ls
+: 1695200965:0;cd ..
+: 1695200972:0;cd /
+: 1695200973:0;ls
+: 1695200982:0;cd ~/
+: 1695200985:0;ls
+: 1695201008:0;cd ./ROS-Autocar/src
+: 1695201009:0;ls
+: 1695201023:0;cd ./racecar/src
+: 1695201024:0;ls
+: 1695201035:0;python3 racecar_teleop.py
+: 1695201391:0;roslaunch racecar Run_car.launch
+: 1695201397:0;python3 racecar_teleop.py
+: 1695201724:0;ls
+: 1695201733:0;cd ~/
+: 1695201740:0;cd ./laser_go
+: 1695201741:0;ls
+: 1695201745:0;cd ./src
+: 1695201791:0;ls
+: 1695201796:0;cd ./la
+: 1695201798:0;cd ./laser_go
+: 1695201799:0;ls
+: 1695201802:0;cd ./src
+: 1695201803:0;ls
+: 1695201815:0;cat laser_go.cpp
+: 1695201942:0;vim laser_go.cpp
+: 1695202009:0;ls
+: 1695202022:0;cd scnucar_ws/src/racecar
+: 1695202025:0;ls
+: 1695202029:0;cd src
+: 1695202031:0;ls
+: 1695202053:0;cd ~/ROS_ws
+: 1695202054:0;ls
+: 1695202056:0;cd ..
+: 1695202057:0;ls
+: 1695202061:0;cd ROS-Autocar
+: 1695202062:0;ls
+: 1695202065:0;cd src
+: 1695202065:0;ls
+: 1695202068:0;cd racecar
+: 1695202069:0;ls
+: 1695202072:0;cd src
+: 1695202073:0;ls
+: 1695202105:0;cd ..
+: 1695202106:0;ls
+: 1695202108:0;cd ..
+: 1695202108:0;ls
+: 1695202113:0;cd ..
+: 1695202113:0;ls
+: 1695202120:0;cd ..
+: 1695202121:0;ls
+: 1695202123:0;cd laser_go
+: 1695202129:0;catkin_make
+: 1695202148:0;ls
+: 1695202150:0;cd ..
+: 1695202151:0;ls
+: 1695202186:0;cat parking.py
+: 1695202196:0;ls
+: 1695202218:0;sudo chmod +x parking.py
+: 1695202220:0;ls
+: 1695202235:0;python3 parking.py
+: 1695202277:0;roslaunch racecar Run_car.launch
+: 1695202295:0;python3 parking.py
+: 1695202306:0;cat parking.py
+: 1695202322:0;ls
+: 1695202337:0;cp parking.py stop.py
+: 1695202338:0;ls
+: 1695202343:0;vim stop.py
+: 1695202492:0;python3 stop.py
+: 1695203256:0;sudo poweroff
+: 1695543911:0;ls
+: 1695543920:0;cd ./ROS-Autocar/src
+: 1695543922:0;ls
+: 1695543943:0;cd ..
+: 1695543944:0;ls
+: 1695543948:0;cd ./laser_go
+: 1695543953:0;source ./devel/setup.zsh
+: 1695543972:0;rosrun laser_go laser_go
+: 1695544003:0;ls
+: 1695544008:0;roslaunch racecar Run_car.launch
+: 1695544013:0;rosrun laser_go laser_go
+: 1695544103:0;cd ..
+: 1695544138:0;sudo poweroff
+: 1695735591:0;roslaunch racecar Run_car.launch
+: 1695735701:0;rosrun racecar racecar_teleop.py
+: 1695736017:0;roslaunch racecar Run_car.launch
+: 1695736038:0;roslaunch racecar Run_gmapping.launch
+: 1695736417:0;history
+: 1695736445:0;history | grep roslaunch
+: 1695736471:0;roslaunch racecar amcl_nav.launch
+: 1695736687:0;roslaunch racecar Run_gmapping.launch
+: 1695736708:0;roslaunch racecar Run_car.launch
+: 1695736761:0;roslaunch racecar Run_gmapping.launch
+: 1695736824:0;roslaunch racecar Run_car.launch
+: 1695736828:0;roslaunch racecar Run_gmapping.launch
+: 1695736885:0;history | grep save
+: 1695736964:0;bash save_map.sh
+: 1695737080:0;roslaunch racecar amcl_nav.launch
+: 1695737823:0;cd scnucar_ws
+: 1695737825:0;code ,.
+: 1695737833:0;code .
+: 1695737998:0;roslaunch racecar amcl_nav.launch
+: 1695738013:0;roslaunch racecar Run_car.launch
+: 1695738016:0;roslaunch racecar amcl_nav.launch
+: 1695738346:0;catkin_make
+: 1695738366:0;ls
+: 1695738383:0;ls -a
+: 1695738389:0;cat .zshrc
+: 1695738459:0;bash
+: 1695738624:0;cat .bashrc
+: 1695738676:0;history | grep echo
+: 1695738177:4;catkin_make
+: 1695739233:0;rostopic list
+: 1695739236:0;roslaunch racecar Run_car.launch
+: 1695739240:0;rostopic list
+: 1695739307:0;sudo poweroff
+: 1695900291:0;roscore
+: 1695900444:0;rosrun turtlesim turtlesim_node
+: 1695900462:0;rosrun turtlesim turtle_teleop_key
+: 1695900696:0;catkin_make
+: 1695900960:0;roscore
+: 1695901464:0;catkin_make
+: 1695901721:0;rosrun laser_go.cp
+: 1695902662:0;rosrun laser_go.cpp
+: 1695902745:0;rosrun laser_go
+: 1695902892:0;rosrun laser_geometry
+: 1695902934:0;catkin_make
+: 1695903044:0;roscore
+: 1695903276:0;rosrun 
+: 1695903298:0;catkin_make
+: 1695903587:0;roslaunch racecar Run_car.launch
+: 1695903720:0;roslaunch ls01b_v2 ls01b_v2.launch
+: 1695903777:0;rostopic echo /scan
+: 1695903822:0;python3 Encoder_vel.py
+: 1695903844:0;rostopic echo /encoder
+: 1695903914:0;rostopic echo /encoder_imu_odom
+: 1695904522:0;roslaunch  ls01b_v2  ls01b_v2.launch 
+: 1695904867:0;catkin_make
+: 1695905070:0;rosrun laser_go
+: 1695905127:0;catkin_make
+: 1695905170:0;rosrun laser_go laser_go
+: 1695905281:0;catkin_make
+: 1695905316:0;roscore
+: 1695905452:0;catkin_make
+: 1695905508:0;rosrun laser_go laser_go.cpp
+: 1695905554:0;rosrun laser_go.cpp
+: 1695905560:0;rosrun laser_go
+: 1695905601:0;rosrun laser_go laser_go.cpp
+: 1695905720:0;rosrun laser_go laser_go
+: 1695905739:0;catkin_make
+: 1695905753:0;rosrun laser_go laser_go
+: 1695905961:0;source ./devel/setup.sh
+: 1695905992:0;source ./devel/setup.bash
+: 1695906011:0;source ./devel
+: 1695906034:0;source ./devel/setup.bash
+: 1695906052:0;catkin_make
+: 1695906166:0;rosrun laser_go laser_go
+: 1695906184:0;roscpp laser_go.cpp
+: 1695906277:0;catkin_make
+: 1695906369:0;rosrun laser_go laser_go
+: 1695906447:0;catkin_make
+: 1695906558:0;rosrun laser_go laser_go.cpp
+: 1695906628:0;sudo chmod 777 src-R
+: 1695906692:0;sudo chmod 777 ./src-R
+: 1695906723:0;sudo chmod 777 src -R
+: 1695906731:0;1
+: 1695906741:0;sudo chmod 777 src -R
+: 1695906755:0;catkin_make
+: 1695906773:0;source devel/setup.bash
+: 1695906790:0;soruce devel/setup.bash
+: 1695906803:0;source devel/setup.bash
+: 1695906879:0;source setup.bash
+: 1695906897:0;rosrun laser_go laser_go
+: 1695906957:0;catkin_create_pkg laser roscpp
+: 1695907285:0;catkin_make
+: 1695907316:0;rosrun laser laser
+: 1695907435:0;rosrun laser
+: 1695907443:0;rosrun laser.cpp
+: 1695907493:0;catkin_find_pkg
+: 1695907500:0;catkin_find
+: 1695907521:0;catkin_find_pkg
+: 1695907533:0;catkin_find
+: 1695907787:0;rosrun laser_go laser_go
+: 1695908203:0;catkin_make
+: 1695908213:0;rosrun laser_go laser_go
+: 1695908406:0;rosrun laser laser
+: 1695908484:0;source devel/setup.bash
+: 1695908535:0;source .devel/setup.bash
+: 1695908559:0;source /devel/setup.basj
+: 1695908569:0;source /devel/setup.bash
+: 1695908581:0;cd devel
+: 1695908597:0;source setup.bash
+: 1695908615:0;rosrun laser laser
+: 1695908745:0;ls
+: 1695908792:0;source ./devel/setup.bash
+: 1695908827:0;ls
+: 1695908852:0;cd ~/
+: 1695908857:0;ls
+: 1695908866:0;cd /
+: 1695908868:0;ls
+: 1695908890:0;cd ./devel/setup.bash
+: 1695908909:0;source ./devel/setup.bash
+: 1695908918:0;cd ls
+: 1695908921:0;cd devel
+: 1695908922:0;ls
+: 1695909009:0;source setup.bash
+: 1695909057:0;rosrun laser laser
+: 1696425733:0;cd
+: 1696425736:0;ls
+: 1696425806:0;cd DeepBlue
+: 1696425818:0;catkin_make
+: 1696425855:0;cd src
+: 1696425861:0;catkin_make
+: 1696425872:0;cd ..
+: 1696425913:0;mkdir -p DeepBlue/src
+: 1696425943:0;cd ~/DeepBlue/
+: 1696425949:0;catkin_make
+: 1696425972:0;source devel/setup.bash
+: 1696426036:0;cd devel
+: 1696426038:0;source devel/setup.bash
+: 1696426044:0;source setup.bash
+: 1696426100:0;echo "source /home/scnu-car/DeepBlue/devel/setup.bash" >> ~/.bashrc
+: 1696426118:0;sudo gedit ~/.bashrc
+: 1696426727:0;ls /dev/tty
+: 1696427400:0;ls /dev/ttyUSb0
+: 1696427522:0;cd scnu_car
+: 1696427572:0;catkin_make
+: 1696427814:0;cd src
+: 1696427818:0;cd serial
+: 1696427870:0;cd ..
+: 1696427905:0;git clone https://github.com/wjwwood/serial.git
+: 1696428185:0;cd serial
+: 1696428188:0;make
+: 1696428241:0;git clone https://github.com/wjwwood/serial.git
+: 1696428302:0;cd serial
+: 1696428307:0;make
+: 1696428317:0;make install
+: 1696428468:0;catkin_make
+: 1696428587:0;sudo chmod  +777 /dev/ttyUSBB
+: 1696428614:0;sudo chmod  +777 /dev/ttyUSB2
+: 1696428649:0;roslaunch imu_launch  imu_msg.launch
+: 1696428679:0;rostopic echo /IMU_data
+: 1696428825:0;cd deepblue
+: 1696428829:0;cd DeepBlue
+: 1696428834:0;roslaunch imu_launch  imu_msg.launch
+: 1696429050:0;rostopic echo /IMU_data
+: 1696429064:0;roscore
+: 1696429098:0;roslaunch imu_launch  imu_msg.launch
+: 1696429145:0;catkin_make
+: 1696429201:0;roslaunch imu_launch  imu_msg.launch
+: 1696429358:0;rostopic echo /imu_0x91_package
+: 1696429372:0;rostopic echo /IMU_data
+: 1696429468:0;roslaunch imu_launch  imu_msg.launch
+: 1696429371:0;rostopic echo /IMU_data
+: 1696429383:0;rostopic echo /imu_0x91_package
+: 1696429489:0;rostopic echo /imu_data
+: 1697109704:0;cd ~/car
+: 1697109724:0;cd ~/car_2023ws
+: 1697109774:0;cd ~/car2023_ws
+: 1697109781:0;.vscode
+: 1697109942:0;roslaunch racecar Run_
+: 1697109979:0;roslaunch racecar Runcar.launch
+: 1697110025:0;roslaunch racecar Run_car.launch
+: 1697110100:0;roslaunch racecar Run_gamapping.launch
+: 1697110137:0;roslaunch racecar Run_gmapping.launch
+: 1697110196:0;roslaunch racecar racecar_teleop.py
+: 1697110238:0;rosrun racecar racecar_teleop.py
+: 1697110909:0;sudo poweroff
+: 1697185236:0;rospack find tf2_tools
+: 1697185464:0;roslaunch racecar Run_car.launch
+: 1697185495:0;cd ~/laser_go
+: 1697185602:0;cat ~/.zshrc
+: 1697185633:0;source ./devel/setup.bash
+: 1697185645:0;source devel/setup.bash
+: 1697185665:0;source devel/setup.zsh
+: 1697185697:0;rosrun laser_go laser_go
+: 1697185852:0;roslaunch racecar Run_car.launch
+: 1697185880:0;roslaunch racecar Run_gmapping.launch
+: 1697185896:0;rosrun laser_go laser_go
+: 1697186063:0;bash save_map.sh
+: 1697186398:0;roslaunch racecar amcl_nav.launch
+: 1697186964:0;cat .zshrc
+: 1697187033:0;vim .zshrc
+: 1697187089:0;pwd
+: 1697187375:0;catkin_make
+: 1697187145:0;source .zshrc
+: 1697187454:0;roslaunch racecar Run_car.launch
+: 1697187483:0;rosrun  laser_go laser_go
+: 1697187562:0;roslaunch racecar Run_gmapping.launch
+: 1697188001:0;ls
+: 1697188012:0;cd src
+: 1697188013:0;ls
+: 1697188020:0;code .
+: 1697188740:0;ls
+: 1697188746:0;cd ..
+: 1697188752:0;catkin_make
+: 1697188801:0;roslaunch racecar Run_car.launch
+: 1697188839:0;rosrun  laser_go laser_go
+: 1697188852:0;roslaunch racecar Run_gmapping.launch
+: 1697189284:0;catkin_make
+: 1697189319:0;rosrun  laser_go laser_go
+: 1697189546:0;catkin_make
+: 1697189600:0;rosrun  laser_go laser_go
+: 1697189755:0;catkin_make
+: 1697189772:0;rosrun  laser_go laser_go
+: 1697190900:0;catkin_make
+: 1697190918:0;rosrun  laser_go laser_go
+: 1697191439:0;catkin_make
+: 1697191457:0;rosrun  laser_go laser_go
+: 1697191781:0;catkin_make
+: 1697191815:0;rosrun  laser_go laser_go
+: 1697192980:0;catkin_make
+: 1697192992:0;rosrun  laser_go laser_go
+: 1697248672:0;catkin_make
+: 1697250088:0;roslaunch racecar Run_car.launch
+: 1697250111:0;rosrun  laser_go laser_go
+: 1697250555:0;roslaunch racecar Run_car.launch
+: 1697250575:0;rosrun  laser_go laser_go_new
+: 1697250616:0;catkin_make
+: 1697250637:0;rosrun  laser_go laser_go_new
+: 1697250669:0;rosrun  laser_go 
+: 1697250678:0;rosrun  laser_go laser_go
+: 1697250908:0;catkin_make
+: 1697250997:0;rosrun laser_go laser_go_new
+: 1697251113:0;catkin_make
+: 1697251124:0;rosrun  laser_go laser_go
+: 1697251137:0;rosrun laser_go laser_go_new
+: 1697251318:0;catkin_make
+: 1697251326:0;rosrun laser_go laser_go_new
+: 1697251341:0;catkin_make
+: 1697251351:0;rosrun laser_go laser_go_new
+: 1697251478:0;catkin_make
+: 1697251492:0;rosrun laser_go laser_go_new
+: 1697251584:0;catkin_make
+: 1697251595:0;rosrun laser_go laser_go_new
+: 1697251645:0;catkin_make
+: 1697251660:0;rosrun laser_go laser_go
+: 1697251686:0;rosrun laser_go laser_go_new
+: 1697251806:0;catkin_make
+: 1697251821:0;rosrun laser_go laser_go_new
+: 1697251866:0;cccc
+: 1697251870:0;catkin_make
+: 1697251882:0;rosrun laser_go laser_go_new
+: 1697251946:0;catkin_make
+: 1697251972:0;rosrun laser_go laser_go_new
+: 1697252075:0;catkin_make
+: 1697252086:0;rosrun laser_go laser_go_new
+: 1697252213:0;catkin_make
+: 1697252225:0;rosrun laser_go laser_go_new
+: 1697252243:0;r
+: 1697252243:0;rosrun laser_go laser_go_new
+: 1697252524:0;catkin_make
+: 1697252537:0;rosrun laser_go laser_go_new
+: 1697273593:0;sudo poweroff
+: 1697274143:0;catkin_make
+: 1697274170:0;roslaunch racecar Run_car.launch
+: 1697274237:0;rosrun laser_go laser_go_new
+: 1697274343:0;catkin_make
+: 1697274435:0;rosrun laser_go laser_go_new
+: 1697274758:0;catkin_make
+: 1697274773:0;rosrun laser_go laser_go_new
+: 1697274849:0;catkin_make
+: 1697274860:0;rosrun laser_go laser_go_new
+: 1697275080:0;catkin_make
+: 1697275091:0;rosrun laser_go laser_go_new
+: 1697275413:0;catkin_make
+: 1697275424:0;rosrun laser_go laser_go_new
+: 1697275569:0;catkin_make
+: 1697275581:0;rosrun laser_go laser_go_new
+: 1697275698:0;catkin_make
+: 1697275734:0;rosrun laser_go laser_go_new
+: 1697275925:0;catkin_make
+: 1697275937:0;rosrun laser_go laser_go_new
+: 1697276225:0;catkin_make
+: 1697276241:0;rosrun laser_go laser_go_new
+: 1697276335:0;catkin_make
+: 1697276349:0;rosrun laser_go laser_go_new
+: 1697276514:0;catkin_make
+: 1697276527:0;rosrun laser_go laser_go_new
+: 1697276645:0;catkin_make
+: 1697277296:0;rosrun laser_go laser_go_new
+: 1697277409:0;catkin_make
+: 1697277421:0;rosrun laser_go laser_go_new
+: 1697277556:0;catkin_make
+: 1697277569:0;rosrun laser_go laser_go_new
+: 1697277776:0;catkin_make
+: 1697277787:0;rosrun laser_go laser_go_new
+: 1697277938:0;catkin_make
+: 1697277952:0;rosrun laser_go laser_go_new
+: 1697278111:0;catkin_make
+: 1697278145:0;rosrun laser_go laser_go_new
+: 1697278289:0;roslaunch racecar Run_gmapping.launch
+: 1697278423:0;rosrun laser_go laser_go_new
+: 1697278433:0;roslaunch racecar Run_gmapping.launch
+: 1697278508:0;rosrun laser_go laser_go_new
+: 1697278631:0;catkin_make
+: 1697278643:0;rosrun laser_go laser_go_new
+: 1697278768:0;catkin_make
+: 1697278782:0;rosrun laser_go laser_go_new
+: 1697279802:0;catkin_make
+: 1697279815:0;rosrun laser_go laser_go_new
+: 1697280311:0;catkin_make
+: 1697280321:0;rosrun laser_go laser_go_new
+: 1697280510:0;catkin_make
+: 1697280522:0;rosrun laser_go laser_go_new
+: 1697280807:0;catkin_make
+: 1697280819:0;rosrun laser_go laser_go_new
+: 1697280837:0;roslaunch racecar Run_gmapping.launch
+: 1697280914:0;rosrun laser_go laser_go_new
+: 1697281050:0;catkin_make
+: 1697281062:0;rosrun laser_go laser_go_new
+: 1697281288:0;catkin_make
+: 1697281300:0;rosrun laser_go laser_go_new
+: 1697359015:0;catkin_make
+: 1697359415:0;roslaunch racecar Run_car.launch
+: 1697359425:0;rosrun laser_go laser_go_new
+: 1697360007:0;sudo reboot
+: 1697360160:0;roslaunch racecar Run_car.launch
+: 1697360166:0;rosrun laser_go laser_go_new
+: 1697360253:0;catkin_make
+: 1697360264:0;rosrun laser_go laser_go_newr
+: 1697360268:0;rosrun laser_go laser_go_new
+: 1697360564:0;catkin_make
+: 1697360579:0;rosrun laser_go laser_go_new
+: 1697361097:0;catkin_make
+: 1697361126:0;rosrun laser_go laser_go_old
+: 1697361218:0;catkin_make
+: 1697361287:0;rosrun laser_go laser_go_old
+: 1697361410:0;catkin_make
+: 1697361426:0;rosrun laser_go laser_go_old
+: 1697361553:0;catkin_make
+: 1697361569:0;rosrun laser_go laser_go_old
+: 1697361726:0;catkin_make
+: 1697361741:0;rosrun laser_go laser_go_old
+: 1697361881:0;catkin_make
+: 1697361901:0;rosrun laser_go laser_go_old
+: 1697363035:0;catkin_make
+: 1697363049:0;rosrun laser_go laser_go_old
+: 1697363358:0;roslaunch racecar Run_gmapping.launch
+: 1697363368:0;rosrun laser_go laser_go_old
+: 1697363655:0;roslaunch racecar Run_gmapping.launch
+: 1697363692:0;catkin_make
+: 1697363727:0;rosrun laser_go laser_go_old
+: 1697363750:0;roslaunch racecar Run_gmapping.launch
+: 1697364160:0;rosrun laser_go laser_go_new
+: 1697364169:0;catkin_make
+: 1697364180:0;rosrun laser_go laser_go_new
+: 1697364597:0;catkin_make
+: 1697364614:0;rosrun laser_go laser_go_new
+: 1697365361:0;catkin_make
+: 1697365377:0;rosrun laser_go laser_go_old
+: 1697365560:0;rosrun laser_go laser_go
+: 1697365922:0;catkin_make
+: 1697365935:0;rosrun laser_go laser_go_old
+: 1697366004:0;r
+: 1697366004:0;rosrun laser_go laser_go_old
+: 1697366109:0;catkin_make
+: 1697366119:0;rosrun laser_go laser_go_old
+: 1697366207:0;catkin_make
+: 1697366223:0;rosrun laser_go laser_go_old
+: 1697366341:0;catkin_make
+: 1697366355:0;rosrun laser_go laser_go_old
+: 1697366483:0;catkin_make
+: 1697366499:0;rosrun laser_go laser_go_old
+: 1697366550:0;catkin_make
+: 1697366567:0;rosrun laser_go laser_go_old
+: 1697366647:0;catkin_make
+: 1697366661:0;rosrun laser_go laser_go_old
+: 1697366921:0;catkin_make
+: 1697366943:0;rosrun laser_go laser_go_old
+: 1697367306:0;sudo poweroff
+: 1697425384:0;roslaunch racecar Run_car.launch
+: 1697425390:0;catkin_make
+: 1697425538:0;rosrun laser_go laser_go_new
+: 1697425607:0;catkin_make
+: 1697425617:0;rosrun laser_go laser_go_new
+: 1697425784:0;catkin_make
+: 1697425799:0;rosrun laser_go laser_go_new
+: 1697425895:0;catkin_make
+: 1697425905:0;rosrun laser_go laser_go_new
+: 1697425929:0;rosrun laser_go laser_go_old
+: 1697426075:0;catkin_make
+: 1697426085:0;rosrun laser_go laser_go_new
+: 1697426199:0;catkin_make
+: 1697426209:0;rosrun laser_go laser_go_new
+: 1697426278:0;catkin_make
+: 1697426287:0;rosrun laser_go laser_go_new
+: 1697427128:0;catkin_make
+: 1697427141:0;rosrun laser_go laser_go_new
+: 1697427283:0;catkin_make
+: 1697427296:0;rosrun laser_go laser_go_new
+: 1697427323:0;sudo poweroff
+: 1697714203:0;roslaunch racecar Run_car.launch
+: 1697714213:0;rosrun laser_go laser_go_new
+: 1697714421:0;catkin_make
+: 1697714432:0;rosrun laser_go laser_go_new
+: 1697714823:0;catkin_make
+: 1697714855:0;rosrun laser_go laser_go_new
+: 1697715902:0;catkin_make
+: 1697715915:0;rosrun laser_go laser_go_new
+: 1697716085:0;catkin_make
+: 1697716102:0;rosrun laser_go laser_go_new
+: 1697716235:0;catkin_make
+: 1697716248:0;rosrun laser_go laser_go_new
+: 1697716448:0;catkin_make
+: 1697716461:0;rosrun laser_go laser_go_new
+: 1697716563:0;catkin_make
+: 1697716574:0;rosrun laser_go laser_go_new
+: 1697721234:0;sudo poweroff
+: 1697723075:0;roslaunch racecar Run_car.launch
+: 1697723216:0;catkin_make
+: 1697723229:0;rosrun laser_go laser_go_new
+: 1697723315:0;catkin_make
+: 1697723326:0;rosrun laser_go laser_go_new
+: 1697723571:0;catkin_make
+: 1697723581:0;rosrun laser_go laser_go_new
+: 1697723681:0;catkin_make
+: 1697723691:0;rosrun laser_go laser_go_new
+: 1697723791:0;catkin_make
+: 1697723801:0;rosrun laser_go laser_go_new
+: 1697723875:0;catkin_make
+: 1697723885:0;rosrun laser_go laser_go_new
+: 1697723953:0;catkin_make
+: 1697723963:0;rosrun laser_go laser_go_new
+: 1697724149:0;catkin_make
+: 1697724168:0;rosrun laser_go laser_go_new
+: 1697724256:0;catkin_make
+: 1697724278:0;rosrun laser_go laser_go_new
+: 1697724321:0;catkin_make
+: 1697724350:0;rosrun laser_go laser_go_new
+: 1697724406:0;catkin_make
+: 1697724424:0;roslaunch racecar Run_gmapping.launch
+: 1697724438:0;rosrun laser_go laser_go_new
+: 1697724510:0;sudo poweroff
+: 1697801632:0;python3 laser
+: 1697801652:0;python3 lase2PC.py
+: 1697801690:0;ROS CORE
+: 1697801855:0;roscore
+: 1697801883:0;roslaunch racecar Run_car.launch
+: 1697801946:0;roslaunch racecar Run_gmapping.launch
+: 1697802176:0;python3 visual_Auto.py
+: 1697804336:0;su boot
+: 1697804350:0;su scnu-car
+: 1697804386:0;Vi /etc/vim/vimrc
+: 1697804462:0;vim /etc/vim/vimrc
+: 1697804728:0;roscore
+: 1697804750:0;roslaunch racecar Run_car.launch
+: 1697804762:0;python3 lase2PC.py
+: 1697804848:0;rostopic echo /scan
+: 1697804894:0;python3 lase2PC.py
+: 1697805078:0;python3 laser2PC.py
+: 1697805131:0;python3 lase2PC.py
+: 1697807328:0;roslaunch racecar Run_gmapping.launch
+: 1697807692:0;roscore
+: 1697807728:0;roslaunch racecar Run_car.launch
+: 1697807744:0;python3 lase2PC.py
+: 1697809340:0;rosrun racecar racecar_teleop.py
+: 1697809458:0;python3 lase2PC.py
+: 1697870842:0;roscore
+: 1697870859:0;roslaunch racecar Run_car.launch
+: 1697870903:0;python3 lase2PC.py
+: 1697871435:0;roscore
+: 1697871448:0;roslaunch racecar Run_car.launch
+: 1697871540:0;ifconfig -a
+: 1697871559:0;ifconfig
+: 1697871609:0;ip addr show
+: 1697871746:0;ifconfig -a
+: 1697871906:0;ifconfig
+: 1697872370:0;roslaunch racecar Run_car.launch
+: 1697872393:0;python3 lase2PC.py
+: 1697872778:0;roslaunch racecar Run_gmapping.launch
+: 1697872797:0;python3 lase2PC.py
+: 1697873059:0;bash save_map.sh
+: 1697873225:0;roslaunch racecar amcl_nav.launch 
+: 1697879474:0;roscore
+: 1697879514:0;roslaunch racecar Run_car.launch
+: 1697879666:0;python3 identify_redgreenlight.py
+: 1697879738:0;python3 lase2PC.py
+: 1697879955:0;python3 identify_redgreenlight.py
+: 1697879976:0;python3 lase2PC.py
+: 1697880276:0;roslaunch racecar Run_car.launch
+: 1697881029:0;python3 lase2PC.py
+: 1697881613:0;roslaunch racecar Run_car.launch
+: 1697881620:0;python3 lase2PC.py
+: 1697881912:0;roslaunch racecar Run_car.launch
+: 1697881917:0;python3 lase2PC.py
+: 1697886625:0;roscore
+: 1697886639:0;roslaunch racecar Run_car.launch
+: 1697886677:0;python3 lase2PC.py
+: 1697887007:0;roslaunch racecar Run_car.launch
+: 1697887012:0;python3 lase2PC.py
+: 1697889434:0;python3 visual_Auto.py
+: 1697890016:0;roslaunch racecar Run_car.launch
+: 1697890021:0;python3 visual_Auto.py
+: 1697890791:0;python3 identify_redgreenlight.py
+: 1697891186:0;python3 visual_Auto.py
+: 1697891320:0;roslaunch racecar Run_car.launch
+: 1697891659:0;python3 visual_Auto.py
+: 1697892196:0;roslaunch racecar Run_car.launch
+: 1697892201:0;python3 visual_Auto.py
+: 1697896906:0;roscore
+: 1697897453:0;roslaunch racecar Run_car.launch
+: 1697897460:0;python3 visual_Auto.py
+: 1697898533:0;pip install openvino
+: 1697898825:0;pip install openvino -i https://pypi.tuna.tsinghua.edu.cn/simple
+: 1697898968:0;python3 red_green_classification.py
+: 1697900031:0;python3 visual_Auto_AI.py
+: 1697900162:0;roslaunch racecar Run_car.launch
+: 1697941743:0;catkin_make
+: 1697941764:0;roslaunch racecar Run_car.launch
+: 1697941798:0;rosrun laser_go laser_go_new
+: 1697941877:0;roslaunch racecar Run_gmapping.launch
+: 1697942252:0;roslaunch racecar Run_car.launch
+: 1697942258:0;rosrun laser_go laser_go_new
+: 1697942465:0;rosrun racecar racecar_teleop.py
+: 1697942565:0;roslaunch racecar Run_gmapping.launch
+: 1697942736:0;sudo poweroff
+: 1697951192:0;roslaunch racecar Run_car.launch
+: 1697951200:0;roslaunch racecar Run_gmapping.launch
+: 1697951782:0;rosrun racecar racecar_teleop.py
+: 1697951924:0;roslaunch racecar Run_gmapping.launch
+: 1697952239:0;roslaunch racecar Run_car.launch
+: 1697952247:0;roslaunch racecar Run_gmapping.launch
+: 1697952642:0;rosrun racecar racecar_teleop.py
+: 1697952655:0;roslaunch racecar Run_gmapping.launch
+: 1697952760:0;roslaunch racecar Run_car.launch
+: 1697952853:0;rosrun racecar racecar_teleop.py
+: 1697952877:0;roslaunch racecar Run_gmapping.launch
+: 1697952993:0;bash save_map.sh
+: 1697953146:0;roslaunch racecar Run_gmapping.launch
+: 1697953167:0;roslaunch racecar Run_car.launch
+: 1697953185:0;roslaunch racecar Run_gmapping.launch
+: 1697953268:0;roslaunch racecar Run_car.launch
+: 1697953274:0;roslaunch racecar Run_gmapping.launch
+: 1697953458:0;roslaunch racecar Run_car.launch
+: 1697953475:0;roslaunch racecar Run_gmapping.launch
+: 1697953597:0;roslaunch racecar Run_car.launch
+: 1697953601:0;roslaunch racecar Run_gmapping.launch
+: 1697953643:0;sudo poweroff
+: 1697960108:0;catkin_make
+: 1697960164:0;rosrun laser_go laser_go_new
+: 1697960172:0;roslaunch racecar Run_car.launch
+: 1697960284:0;roslaunch racecar Run_gmapping.launch
+: 1697960460:0;bash save_map.sh
+: 1697960670:0;roslaunch racecar amcl_nav.launch 
+: 1697961104:0;rosrun laser_go laser_go_new
+: 1697961116:0;roslaunch racecar Run_gmapping.launch
+: 1697961860:0;catkin_make
+: 1697961879:0;rosrun laser_go laser_go_new
+: 1697961890:0;roslaunch racecar Run_gmapping.launch
+: 1697963245:0;rosrun laser_go laser_go_new
+: 1697963255:0;roslaunch racecar Run_gmapping.launch
+: 1697963384:0;bash save_map.sh
+: 1697963441:0;roslaunch racecar amcl_nav.launch 
+: 1697963779:0;roslaunch racecar Run_gmapping.launch
+: 1697963913:0;roslaunch racecar amcl_nav.launch 
+: 1697964143:0;roslaunch racecar Run_gmapping.launch
+: 1697964170:0;rosrun laser_go laser_go_new
+: 1697964185:0;roslaunch racecar Run_gmapping.launch
+: 1697964748:0;sudo poweroff
+: 1697963867:1;bash save_map.sh
+: 1697965125:0;roslaunch racecar Run_car.launch
+: 1697965131:0;roslaunch racecar Run_gmapping.launch
+: 1697965380:0;roslaunch racecar Run_car.launch
+: 1697965385:0;roslaunch racecar Run_gmapping.launch
+: 1697965471:0;rosrun racecar racecar_teleop.py
+: 1697965699:0;roslaunch racecar Run_gmapping.launch
+: 1697966917:0;roslaunch racecar amcl_nav.launch 
+: 1697966944:0;roslaunch racecar Run_car.launch
+: 1697967125:0;roslaunch racecar Run_gmapping.launch
+: 1697967153:0;roslaunch racecar Run_car.launch
+: 1697967205:0;roslaunch racecar Run_gmapping.launch
+: 1697967231:0;roslaunch racecar Run_car.launch
+: 1697967242:0;roslaunch racecar Run_gmapping.launch
+: 1697967360:0;roslaunch racecar Run_car.launch
+: 1697967401:0;sudo reboot
+: 1697967525:0;roslaunch racecar Run_car.launch
+: 1697967533:0;roslaunch racecar Run_gmapping.launch
+: 1697967833:0;rosrun racecar racecar_teleop.py
+: 1697968172:0;roslaunch racecar Run_car.launch
+: 1697968177:0;roslaunch racecar Run_gmapping.launch
+: 1697968561:0;roslaunch racecar amcl_nav.launch 
+: 1697968999:0;roslaunch racecar Run_gmapping.launch
+: 1697969099:0;sudo poweroff
+: 1698047555:0;roslaunch racecar Run_car.launch
+: 1698047582:0;rosrun laser_go laser_go_new
+: 1698047632:0;roslaunch racecar Run_gmapping.launch
+: 1698047911:0;bash save_map.sh
+: 1698047925:0;roslaunch racecar amcl_nav.launch 
+: 1698048828:0;rosrun laser_go laser_go_new
+: 1698048863:0;roslaunch racecar Run_gmapping.launch
+: 1698049037:0;rosrun laser_go laser_go_new
+: 1698049048:0;roslaunch racecar Run_gmapping.launch
+: 1698049467:0;rosrun laser_go laser_go_new
+: 1698049478:0;roslaunch racecar Run_gmapping.launch
+: 1698049676:0;bash save_map.sh
+: 1698049813:0;python3 getpoints.py
+: 1698050020:0;roslaunch racecar amcl_nav.launch 
+: 1698050039:0;python3 goal_loop.py
+: 1698050083:0;roslaunch racecar amcl_nav.launch 
+: 1698050225:0;cat .zshrc
+: 1698050278:0;roslaunch racecar amcl_nav.launch 
+: 1698050347:0;python3 goal_loop.py
+: 1698050784:0;rosrun laser_go laser_go_new
+: 1698050844:0;roslaunch racecar Run_gmapping.launch
+: 1698050860:0;roslaunch racecar amcl_nav.launch 
+: 1698051301:0;rosrun laser_go laser_go_new
+: 1698051404:0;roslaunch racecar amcl_nav.launch 
+: 1698051410:0;rosrun laser_go laser_go_new
+: 1698051571:0;roslaunch racecar Run_gmapping.launch
+: 1698051582:0;roslaunch racecar amcl_nav.launch 
+: 1698052302:0;roslaunch racecar Run_gmapping.launch
+: 1698052434:0;rosclean
+: 1698052466:0;history | rosclean
+: 1698052478:0;history | grep rosclean
+: 1698052490:0;rosclean purge
+: 1698052524:0;roslaunch racecar Run_gmapping.launch
+: 1698052560:0;roslaunch racecar amcl_nav.launch 
+: 1698052927:0;roslaunch racecar move .launch 
+: 1698052938:0;roslaunch racecar move.launch 
+: 1698052986:0;python3 goal_loop.py
+: 1698053415:0;cheese
+: 1698053491:0;rosrun laser_go laser_go_new
+: 1698054032:0;cheese
+: 1698054230:0;roslaunch racecar Run_gmapping.launch
+: 1698054245:0;roslaunch racecar amcl_nav.launch 
+: 1698054400:0;roslaunch racecar Run_gmapping.launch
+: 1698054412:0;roslaunch racecar amcl_nav.launch 
+: 1698054635:0;roslaunch racecar Run_gmapping.launch
+: 1698055002:0;roslaunch racecar move.launch 
+: 1698055020:0;python3 goal_loop.py
+: 1698055117:0;roslaunch racecar amcl_nav.launch 
+: 1698055311:0;rosrun laser_go laser_go_new
+: 1698055316:0;roslaunch racecar Run_gmapping.launch
+: 1698055326:0;roslaunch racecar amcl_nav.launch 
+: 1698055421:0;roslaunch racecar move.launch 
+: 1698055452:0;python3 goal_loop.py
+: 1698055742:0;rosrun laser_go laser_go_new
+: 1698055756:0;roslaunch racecar Run_gmapping.launch
+: 1698055888:0;roslaunch racecar move.launch 
+: 1698055903:0;python3 goal_loop.py
+: 1698055959:0;roslaunch racecar move.launch 
+: 1698055975:0;python3 goal_loop.py
+: 1698056020:0;sudo poweroff
+: 1698140152:0;roslaunch racecar Run_car.launch
+: 1698140188:0;python3 auto_nav.py
+: 1698140661:0;roslaunch racecar Run_gmapping.launch
+: 1698140670:0;python3 auto_nav.py
+: 1698140697:0;rosrun racecar racecar_teleop.py
+: 1698140961:0;python3 auto_nav.py
+: 1698141029:0;roslaunch racecar Run_gmapping.launch
+: 1698141061:0;python3 auto_nav.py
+: 1698141174:0;roslaunch racecar Run_gmapping.launch
+: 1698141180:0;python3 auto_nav.py
+: 1698141288:0;bash save_map.sh
+: 1698141366:0;roslaunch racecar amcl_nav.launch 
+: 1698141548:0;python3 goal_loop.py
+: 1698141828:0;python3 auto_nav.py
+: 1698141973:36;roslaunch racecar Run_gmapping.launch
+: 1698142342:0;sudo poweroff
+: 1698200933:0;roslaunch racecar Run_car.launch
+: 1698200944:0;roslaunch racecar amcl_nav.launch 
+: 1698201404:0;roslaunch racecar Run_gmapping.launch
+: 1698201416:0;roslaunch racecar Run_car.launch
+: 1698201470:0;roslaunch racecar Run_gmapping.launch
+: 1698201508:0;roslaunch racecar Run_car.launch
+: 1698201515:0;roslaunch racecar Run_gmapping.launch
+: 1698201656:0;roslaunch racecar amcl_nav.launch 
+: 1698201855:0;rosservice call /amcl/request_nomotion_update
+: 1698201996:0;roslaunch racecar amcl_nav.launch 
+: 1698202190:0;python3 auto_nav.py
+: 1698204072:0;roslaunch racecar Run_gmapping.launch
+: 1698204105:0;roslaunch racecar map_save.launch
+: 1698204255:0;roslaunch racecar Run_gmapping.launch
+: 1698204264:0;roslaunch racecar map_save.launch
+: 1698204295:0;roslaunch racecar amcl_nav.launch 
+: 1698205664:0;sudo poweroff
+: 1698206660:0;roslaunch racecar Run_car.launch
+: 1698206693:0;python3 auto_nav.py
+: 1698206845:0;roslaunch racecar Run_car.launch
+: 1698206851:0;python3 auto_nav.py
+: 1698207333:0;sudo poweroff
+: 1698311476:0;roslaunch racecar Run_car.launch
+: 1698311539:0;python3 auto_nav.py
+: 1698311835:0;roslaunch racecar Run_car.launch
+: 1698311845:0;python3 auto_nav.py
+: 1698312006:0;roslaunch racecar Run_car.launch
+: 1698312066:0;python3 auto_nav.py
+: 1698312328:0;roslaunch racecar Run_car.launch
+: 1698312339:0;roslaunch racecar Run_gmapping.launch
+: 1698312403:6;python3 auto_nav.py
+: 1698312443:0;roslaunch racecar Run_car.launch
+: 1698312450:0;roslaunch racecar Run_gmapping.launch
+: 1698312460:4;python3 auto_nav.py
+: 1698312563:0;roslaunch racecar Run_gmapping.launch
+: 1698312693:0;python3 auto_nav.py
+: 1698312992:0;roslaunch racecar Run_car.launch
+: 1698313004:0;roslaunch racecar Run_gmapping.launch
+: 1698313027:0;rosrun laser_go laser_go_new
+: 1698313110:0;python3 auto_nav.py
+: 1698313132:0;roslaunch racecar Run_car.launch
+: 1698313140:0;roslaunch racecar Run_gmapping.launch
+: 1698313162:0;python3 auto_nav.py
+: 1698313172:0;rosrun laser_go laser_go_new
+: 1698313272:0;roslaunch racecar Run_gmapping.launch
+: 1698313396:0;catkin_make
+: 1698313467:0;rosrun laser_go laser_go_new
+: 1698313475:0;roslaunch racecar Run_gmapping.launch
+: 1698313488:0;python3 auto_nav.py
+: 1698313713:0;roslaunch racecar Run_car.launch
+: 1698313728:3;python3 auto_nav.py
+: 1698314016:0;roslaunch racecar Run_car.launch
+: 1698314025:0;roslaunch racecar Run_gmapping.launch
+: 1698314043:0;python3 auto_nav.py
+: 1698314052:0;rosrun laser_go laser_go_new
+: 1698314161:0;roslaunch racecar map_save.launch
+: 1698314197:0;roslaunch racecar amcl_nav.launch 
+: 1698314220:44;python3 goal_loop.py
+: 1698314436:0;roslaunch racecar amcl_nav.launch 
+: 1698314446:0;python3 goal_loop.py
+: 1698314601:0;roslaunch racecar amcl_nav.launch 
+: 1698314650:9;python3 goal_loop.py
+: 1698315005:0;catkin_make
+: 1698315129:0;roslaunch racecar amcl_nav.launch 
+: 1698315273:3;python3 goal_loop.py
+: 1698315341:0;python3 auto_nav.py
+: 1698315449:0;roslaunch racecar map_save.launch
+: 1698315566:0;roslaunch racecar Run_car.launch
+: 1698315584:0;rosrun laser_go laser_go_new
+: 1698315597:3;python3 auto_nav.py
+: 1698315630:0;roslaunch racecar Run_gmapping.launch
+: 1698315770:0;catkin_make
+: 1698315644:43;python3 auto_nav.py
+: 1698315799:0;roslaunch racecar Run_gmapping.launch
+: 1698315819:0;rosrun laser_go laser_go_new
+: 1698315828:0;roslaunch racecar Run_gmapping.launch
+: 1698315839:49;python3 auto_nav.py
+: 1698315943:0;catkin_make
+: 1698315978:0;roslaunch racecar Run_gmapping.launch
+: 1698316016:0;roslaunch racecar Run_car.launch
+: 1698316031:0;rosrun laser_go laser_go_new
+: 1698316038:0;roslaunch racecar Run_gmapping.launch
+: 1698316132:0;roslaunch racecar map_save.launch
+: 1698316053:60;python3 auto_nav.py
+: 1698316183:0;roslaunch racecar amcl_nav.launch 
+: 1698316268:0;python3 goal_loop.py
+: 1698316802:0;roslaunch racecar amcl_nav.launch 
+: 1698316816:0;python3 goal_loop.py
+: 1698316918:0;roslaunch racecar amcl_nav.launch 
+: 1698316926:0;python3 goal_loop.py
+: 1698317001:0;roslaunch racecar amcl_nav.launch 
+: 1698317137:0;python3 goal_loop.py
+: 1698317296:0;roslaunch racecar amcl_nav.launch 
+: 1698317306:0;python3 goal_loop.py
+: 1698317441:0;roslaunch racecar amcl_nav.launch 
+: 1698317453:0;python3 goal_loop.py
+: 1698317627:0;roslaunch racecar amcl_nav.launch 
+: 1698317764:0;python3 goal_loop.py
+: 1698317855:0;roslaunch racecar amcl_nav.launch 
+: 1698318274:0;roslaunch racecar Run_gmapping.launch
+: 1698318288:0;roslaunch racecar amcl_nav.launch 
+: 1698318332:0;roslaunch racecar Run_gmapping.launch
+: 1698318340:0;roslaunch racecar amcl_nav.launch 
+: 1698317865:168;python3 goal_loop.py
+: 1698318431:0;roslaunch racecar amcl_nav.launch 
+: 1698318828:0;roslaunch racecar Run_gmapping.launch
+: 1698318839:0;roslaunch racecar amcl_nav.launch 
+: 1698319225:0;sudo poweroff
+: 1698383971:0;catkin_make
+: 1698383999:0;roslaunch racecar Run_car.launch
+: 1698384013:0;roslaunch racecar Run_gmapping.launch
+: 1698384025:0;roslaunch racecar amcl_nav.launch 
+: 1698384048:0;rosrun laser_go laser_go_new
+: 1698384065:0;python3 auto_nav.py
+: 1698384131:0;catkin_make
+: 1698384207:0;rosrun laser_go laser_go_new
+: 1698384214:0;python3 auto_nav.py
+: 1698385335:0;roslaunch racecar Run_gmapping.launch
+: 1698385343:0;roslaunch racecar amcl_nav.launch 
+: 1698385351:0;python3 auto_nav.py
+: 1698385398:0;roslaunch racecar amcl_nav.launch 
+: 1698385407:0;python3 auto_nav.py
+: 1698385762:0;roslaunch racecar Run_gmapping.launch
+: 1698385769:0;python3 auto_nav.py
+: 1698385825:0;roslaunch racecar amcl_nav.launch 
+: 1698385838:0;python3 auto_nav.py
+: 1698386026:0;roslaunch racecar Run_gmapping.launch
+: 1698386032:0;roslaunch racecar amcl_nav.launch 
+: 1698386041:0;python3 auto_nav.py
+: 1698386525:0;poweroff
+: 1698405012:0;roslaunch racecar Run_car.launch
+: 1698405025:0;roslaunch racecar Run_gmapping.launch
+: 1698405038:0;roslaunch racecar amcl_nav.launch 
+: 1698405059:0;rosrun laser_go laser_go_new
+: 1698405078:0;python3 auto_nav.py
+: 1698405353:0;roslaunch racecar Run_gmapping.launch
+: 1698405360:0;roslaunch racecar amcl_nav.launch 
+: 1698405370:0;python3 auto_nav.py
+: 1698405482:0;python3 goal_loop.py
+: 1698405831:0;roslaunch racecar Run_gmapping.launch
+: 1698405839:0;roslaunch racecar amcl_nav.launch 
+: 1698405853:0;python3 auto_nav.py
+: 1698406124:0;roslaunch racecar Run_gmapping.launch
+: 1698406132:0;roslaunch racecar amcl_nav.launch 
+: 1698406143:0;python3 auto_nav.py
+: 1698406472:0;roslaunch racecar Run_gmapping.launch
+: 1698406547:0;roslaunch racecar amcl_nav.launch 
+: 1698406614:0;roslaunch racecar Run_gmapping.launch
+: 1698406623:0;roslaunch racecar amcl_nav.launch 
+: 1698406733:0;roslaunch racecar Run_gmapping.launch
+: 1698406774:14;catkin_make
+: 1698406807:0;r
+: 1698406807:0;catkin_make
+: 1698406848:0;rosrun laser_go laser_go_new
+: 1698406858:0;roslaunch racecar amcl_nav.launch 
+: 1698406871:0;python3 auto_nav.py
+: 1698407005:0;python3 goal_loop.py
+: 1698407237:0;python3 auto_nav.py
+: 1698407586:0;roslaunch racecar Run_car.launch
+: 1698407601:0;python3 auto_nav.py
+: 1698408030:0;catkin_make
+: 1698408098:0;python3 auto_nav.py
+: 1698408567:0;roslaunch racecar Run_car.launch
+: 1698408576:0;python3 auto_nav.py
+: 1698408716:0;roslaunch racecar Run_gmapping.launch
+: 1698408729:0;roslaunch racecar amcl_nav.launch 
+: 1698408818:0;rosrun laser_go laser_go_new
+: 1698408825:0;python3 auto_nav.py
+: 1698409079:0;roslaunch racecar Run_gmapping.launch
+: 1698409136:0;python3 auto_nav.py
+: 1698409246:0;roslaunch racecar Run_gmapping.launch
+: 1698409266:0;python3 auto_nav.py
+: 1698409468:0;catkin_make
+: 1698409748:0;roslaunch racecar Run_gmapping.launch
+: 1698409759:0;rosrun laser_go laser_go_new
+: 1698409839:0;roslaunch racecar Run_gmapping.launch
+: 1698409849:0;rosrun laser_go laser_go_new
+: 1698409981:0;catkin_make
+: 1698409999:0;roslaunch racecar Run_gmapping.launch
+: 1698410011:0;roslaunch racecar amcl_nav.launch 
+: 1698410028:0;python3 auto_nav.py
+: 1698410156:0;rosrun laser_go laser_go_new
+: 1698410166:0;python3 auto_nav.py
+: 1698410184:0;roslaunch racecar Run_gmapping.launch
+: 1698410200:0;roslaunch racecar amcl_nav.launch 
+: 1698410593:0;roslaunch racecar Run_gmapping.launch
+: 1698410603:0;roslaunch racecar amcl_nav.launch
+: 1698410617:0;python3 auto_nav.py
+: 1698410806:0;roslaunch racecar Run_gmapping.launch
+: 1698410869:0;catkin_make
+: 1698410937:0;rosrun laser_go laser_go_new
+: 1698410946:0;python3 auto_nav.py
+: 1698411230:0;roslaunch racecar Run_gmapping.launch
+: 1698410808:407;roslaunch racecar amcl_nav.launch
+: 1698411239:0;roslaunch racecar amcl_nav.launch
+: 1698411256:0;python3 auto_nav.py
+: 1698411412:0;catkin_make
+: 1698411446:0;rosrun laser_go laser_go_new
+: 1698411453:0;roslaunch racecar Run_gmapping.launch
+: 1698411465:0;roslaunch racecar amcl_nav.launch
+: 1698411482:0;python3 auto_nav.py
+: 1698411786:0;roslaunch racecar Run_gmapping.launch
+: 1698411790:0;roslaunch racecar amcl_nav.launch
+: 1698411817:0;python3 auto_nav.py
+: 1698412295:0;roslaunch racecar amcl_nav.launch
+: 1698412304:0;roslaunch racecar Run_gmapping.launch
+: 1698412314:0;rosrun laser_go laser_go_new
+: 1698412320:0;python3 auto_nav.py
+: 1698412446:0;roslaunch racecar Run_gmapping.launch
+: 1698412452:0;roslaunch racecar amcl_nav.launch
+: 1698412463:0;rosrun laser_go laser_go_new
+: 1698412470:0;python3 auto_nav.py
+: 1698412556:0;roslaunch racecar Run_gmapping.launch
+: 1698412560:0;roslaunch racecar amcl_nav.launch
+: 1698412582:0;roslaunch racecar Run_gmapping.launch
+: 1698412585:0;roslaunch racecar amcl_nav.launch
+: 1698412591:0;python3 auto_nav.py
+: 1698412695:0;roslaunch racecar Run_gmapping.launch
+: 1698412698:0;roslaunch racecar amcl_nav.launch
+: 1698412704:0;python3 auto_nav.py
+: 1698412856:0;catkin_make
+: 1698412879:0;roslaunch racecar amcl_nav.launch
+: 1698412888:0;rosrun laser_go laser_go_new
+: 1698412921:0;python3 auto_nav.py
+: 1698412929:0;roslaunch racecar Run_gmapping.launch
+: 1698413438:0;roslaunch encoder_driver  wheel_odom.launch
+: 1698413470:0;rviz
+: 1698413554:0;rostopic list
+: 1698413685:0;roslaunch racecar Run_gmapping.launch
+: 1698413797:0;roslaunch encoder_driver  wheel_odom.launch
+: 1698413802:0;rviz
+: 1698413975:0;roslaunch racecar Run_gmapping.launch
+: 1698414019:0;roslaunch encoder_driver  wheel_odom.launch
+: 1698414024:0;rviz
+: 1698414114:0;roslaunch racecar Run_gmapping.launch
+: 1698414511:0;catkin_make
+: 1698414536:0;rosrun laser_go laser_go_new
+: 1698414543:0;roslaunch racecar Run_gmapping.launch
+: 1698414580:0;python3 auto_nav.py
+: 1698414586:0;roslaunch racecar Run_gmapping.launch
+: 1698414649:0;sudo poweroff
+: 1698469831:0;roscore
+: 1698469855:0;roslaunch racecar Run_car.launch
+: 1698469890:0;python3 visual_Auto_AI.py
+: 1698470695:0;python3 visual_Auto.py
+: 1698470833:0;python3 visual_Auto_AI.py
+: 1698471412:0;roslaunch racecar Run_gmapping.launch
+: 1698471468:0;python3 visual_Auto_AI.py
+: 1698471512:0;roslaunch racecar Run_gmapping.launch
+: 1698472457:0;python3 visual_Auto_AI.py
+: 1698472499:0;roslaunch racecar Run_gmapping.launch
+: 1698472622:0;python3 visual_Auto_AI.py
+: 1698472633:0;roslaunch racecar Run_gmapping.launch
+: 1698472701:0;python3 visual_Auto_AI.py
+: 1698472705:0;roslaunch racecar Run_gmapping.launch
+: 1698472752:0;python3 visual_Auto_AI.py
+: 1698473117:0;bash save_map.sh
+: 1698473349:0;roslaunch racecar amcl_nav.launch
+: 1698473550:0;python3 visual_Auto_AI.py
+: 1698473585:0;roslaunch racecar Run_gmapping.launch
+: 1698474106:0;roslaunch racecar amcl_nav.launch
+: 1698474632:157;roslaunch racecar amcl_nav_copy.launch 
+: 1698475228:0;catkin_make
+: 1698475272:0;roslaunch racecar amcl_nav_dl.launch
+: 1698475780:0;python3 visual_Auto_AI.py
+: 1698475867:0;roslaunch racecar amcl_nav_dl.launch
+: 1698476013:0;sudo catkin_make
+: 1698476021:0;sudo catkin_mak
+: 1698476026:0;sudo catkin_make
+: 1698476035:0;catkin_make
+: 1698476716:0;roslaunch racecar amcl_nav_dl.launch
+: 1698470679:6089;roslaunch racecar Run_car.launch
+: 1698485504:0;roscore
+: 1698485527:0;roslaunch racecar Run_car.launch
+: 1698485542:0;python3 visual_Auto_AI.py
+: 1698490547:0;roscore
+: 1698490562:0;roslaunch racecar Run_car.launch
+: 1698490604:0;python3 visual_Auto_AI.py
+: 1698490663:0;python3 lase2PC.py
+: 1698490872:0;python3 visual_Auto_AI.py
+: 1698490909:0;roslaunch racecar amcl_nav_dl.launch
+: 1698490953:0;python3 getpoints.py
+: 1698491189:0;roslaunch racecar amcl_nav_dl.launch
+: 1698491581:0;roslaunch racecar Run_car.launch
+: 1698491585:0;roslaunch racecar amcl_nav_dl.launch
+: 1698491612:0;python3 goal_loop.py
+: 1698491762:0;roslaunch racecar amcl_nav_dl.launch
+: 1698492014:0;python3 goal_loop.py
+: 1698492087:0;roslaunch racecar Run_car.launch
+: 1698492224:0;python3 visual_Auto_AI.py
+: 1698492247:0;roslaunch racecar amcl_nav_dl.launch
+: 1698492274:0;python3 goal_loop.py
+: 1698492349:0;python3 visual_Auto_AI.py
+: 1698492542:0;roslaunch racecar amcl_nav_dl.launch
+: 1698492786:0;python3 getpoints.py
+: 1698492903:0;roslaunch racecar amcl_nav_dl.launch
+: 1698493126:0;python3 goal_loop.py
+: 1698493384:0;rosrun racecar racecar_teleop.py
+: 1698493634:0;rosrun laser_go laser_go
+: 1698493751:0;rosrun laser_go laser_go_new
+: 1698493792:0;rosrun laser_go laser_go_old
+: 1698493973:0;python3 lase2PC.py
+: 1698494325:0;python3 visual_Auto_AI.py
+: 1698494426:0;python3 lase2PC.py
+: 1698494448:0;python3 visual_Auto_AI.py
+: 1698494557:0;source setup.bash
+: 1698494588:0;catkin_make
+: 1698494661:0;roslaunch racecar Run_gmapping_dl.launch
+: 1698494671:0;python3 lase2PC.py
+: 1698494961:0;sh save_map.sh
+: 1698495089:0;roslaunch racecar amcl_nav_dl.launch
+: 1698495752:0;python3 goal_loop.py
+: 1698495882:0;roslaunch racecar amcl_nav_dl.launch
+: 1698495900:0;python3 goal_loop.py
+: 1698496259:0;roslaunch racecar amcl_nav_dl.launch
+: 1698496285:0;python3 goal_loop.py
+: 1698546620:0;python3 auto_nav.py
+: 1698546657:0;roslaunch racecar Run_car.launch
+: 1698546667:0;python3 auto_nav.py
+: 1698547045:0;rosrun laser_go laser_go_new
+: 1698547628:0;python3 auto_nav.py
+: 1698548517:0;[200~rostopic echo /initialpose~
+: 1698548539:0;rostopic echo /initialpose
+: 1698548830:0;python3 auto_nav.py
+: 1698549650:0;rostopic echo /initialpose
+: 1698549826:0;python3 auto_nav.py
+: 1698551383:0;rosrun laser_go laser_go_new
+: 1698551388:0;python3 auto_nav.py
+: 1698551873:0;rostopic echo /initialpose
+: 1698551879:0;rosrun laser_go laser_go_new
+: 1698551903:71;python3 auto_nav.py
+: 1698552033:0;rosnode lsit
+: 1698552040:0;rosnode list
+: 1698552070:0;python3 auto_nav.py
+: 1698552849:0;rviz
+: 1698552856:0;python3 auto_nav.py
+: 1698552915:0;rviz
+: 1698552918:0;python3 auto_nav.py
+: 1698553170:0;sudo poweroff
+: 1698654400:0;roslaunch racecar Run_car.launch
+: 1698654410:0;rosrun laser_go laser_go_new
+: 1698654616:0;python3 auto_nav.py
+: 1698655417:0;rosrun laser_go laser_go_new
+: 1698655425:0;python3 auto_nav.py
+: 1698655629:0;rosrun laser_go laser_go_new
+: 1698655759:0;python3 auto_nav.py
+: 1698655959:0;rosrun laser_go laser_go_new
+: 1698656057:0;python3 auto_nav.py
+: 1698656579:0;rosrun laser_go laser_go_new
+: 1698656683:0;python3 auto_nav.py
+: 1698657200:0;rosrun laser_go laser_go_new
+: 1698657372:0;catkin_make
+: 1698657499:0;rosrun laser_go laser_go_new
+: 1698657519:0;python3 auto_nav.py
+: 1698657684:0;catkin_make
+: 1698657723:0;rosrun laser_go laser_go_new
+: 1698657730:0;python3 auto_nav.py
+: 1698657848:0;rosrun laser_go laser_go_new
+: 1698657853:0;python3 auto_nav.py
+: 1698658109:0;catkin_make
+: 1698658123:0;rosrun laser_go laser_go_new
+: 1698658126:0;python3 auto_nav.py
+: 1698658428:0;rosrun laser_go laser_go_new
+: 1698658433:0;python3 auto_nav.py
+: 1698658814:0;rosrun laser_go laser_go_new
+: 1698658820:0;python3 auto_nav.py
+: 1698658969:0;rosrun laser_go laser_go_new
+: 1698658975:0;python3 auto_nav.py
+: 1698659107:0;rosrun laser_go laser_go_new
+: 1698659112:0;python3 auto_nav.py
+: 1698659258:0;rosrun laser_go laser_go_new
+: 1698659266:0;python3 auto_nav.py
+: 1698659414:0;rosrun laser_go laser_go_new
+: 1698659422:0;catkin_make
+: 1698659441:0;rosrun laser_go laser_go_new
+: 1698659445:0;python3 auto_nav.py
+: 1698660264:0;rosrun laser_go laser_go_new
+: 1698660270:0;python3 auto_nav.py
+: 1698660401:56;rosrun laser_go laser_go_new
+: 1698660661:0;catkin_make
+: 1698660678:0;rosrun laser_go laser_go_new
+: 1698660774:0;catkin_make
+: 1698660788:0;rosrun laser_go laser_go_new
+: 1698661020:0;catkin_make
+: 1698661031:0;rosrun laser_go laser_go_new
+: 1698661089:0;catkin_make
+: 1698661100:0;rosrun laser_go laser_go_new
+: 1698661558:0;catkin_make
+: 1698661568:0;rosrun laser_go laser_go_new
+: 1698661746:0;catkin_make
+: 1698661818:0;roslaunch racecar Run_gmapping_dl.launch
+: 1698661835:0;rosrun laser_go laser_go_new
+: 1698661956:0;catkin_make
+: 1698661971:0;rosrun laser_go laser_go_new
+: 1698661879:62;python3 auto_nav.py
+: 1698661984:0;python3 auto_nav.py
+: 1698662135:0;rosrun laser_go laser_go_new
+: 1698662151:0;python3 auto_nav.py
+: 1698662290:0;rosrun laser_go laser_go_new
+: 1698662379:0;catkin_make
+: 1698662405:0;python3 auto_nav.py
+: 1698662610:0;rosrun laser_go laser_go_new
+: 1698662615:0;python3 auto_nav.py
+: 1698662706:0;catkin_make
+: 1698662753:0;rosrun laser_go laser_go_new
+: 1698662759:0;python3 auto_nav.py
+: 1698662891:0;rosrun laser_go laser_go_new
+: 1698662896:0;python3 auto_nav.py
+: 1698663380:0;rosrun laser_go laser_go_new
+: 1698663386:0;python3 auto_nav.py
+: 1698663600:0;rosrun laser_go laser_go_new
+: 1698663613:0;python3 auto_nav.py
+: 1698663686:0;rosrun laser_go laser_go_new
+: 1698663692:0;python3 auto_nav.py
+: 1698664163:0;roslaunch racecar amcl_nav.launch
+: 1698664302:0;rosparam list
+: 1698664351:0;rosparam help
+: 1698664363:0;rosparam get /move_base/local_costmap/inflation/inflation_radius
+: 1698664386:0;rosparam set /move_base/local_costmap/inflation/inflation_radius 0.6
+: 1698664390:0;rosparam get /move_base/local_costmap/inflation/inflation_radius
+: 1698664439:0;roslaunch racecar amcl_nav.launch
+: 1698664610:0;rosrun laser_go laser_go_new
+: 1698664619:0;python3 auto_nav.py
+: 1698664920:0;rosrun laser_go laser_go_new
+: 1698664925:0;python3 auto_nav.py
+: 1698665089:0;rosrun laser_go laser_go_new
+: 1698665093:0;python3 auto_nav.py
+: 1698665402:0;rosrun laser_go laser_go_new
+: 1698665406:0;python3 auto_nav.py
+: 1698665572:0;poweroff
+: 1698668253:0;cd car2023_ws
+: 1698668254:0;ls
+: 1698668256:0;pwd
+: 1698668271:0;who
+: 1698668286:0;ifconfig
+: 1698668521:0;poweroff
+: 1698756990:0;roscore
+: 1698757004:0;roslaunch racecar Run_car.launch
+: 1698757023:0;python3 lase2PC2.py
+: 1698758848:0;roslaunch racecar Run_gmapping_dl.launch
+: 1698759144:0;bash save_map.sh
+: 1698759218:0;roslaunch racecar amcl_nav_dl.launch
+: 1698759561:0;python3 visual_Auto_AI.py
+: 1698759581:0;roslaunch racecar amcl_nav_dl.launch
+: 1698759613:0;goal_loop.py
+: 1698759621:0;python3 goal_loop.py
+: 1698759780:0;python3 getpoints.py
+: 1698759785:0;roslaunch racecar amcl_nav_dl.launch
+: 1698760033:0;python3 goal_loop.py
+: 1698760199:0;roslaunch racecar amcl_nav_dl.launch
+: 1698760328:0;roslaunch racecar Run_car.launch
+: 1698760355:0;roslaunch racecar amcl_nav_dl.launch
+: 1698760374:0;python3 getpoints.py
+: 1698760428:0;roslaunch racecar amcl_nav_dl.launch
+: 1698760707:0;python3 goal_loop.py
+: 1698760865:0;python3 lase2PC2.py
+: 1698828628:0;roslaunch racecar Run_car.launch
+: 1698829785:0;roslaunch racecar amcl_nav.launch
+: 1698829796:0;roslaunch racecar Run_car.launch
+: 1698829802:0;roslaunch racecar amcl_nav.launch
+: 1698830059:0;rosrun laser_go laser_go_new
+: 1698830111:0;python3 auto_nav.py
+: 1698830584:0;chmod +x mapBlur.py
+: 1698830589:0;python3 mapBlur.py
+: 1698830711:0;roslaunch racecar amcl_nav.launch
+: 1698831447:0;rosrun laser_go laser_go_new
+: 1698831451:0;python3 auto_nav.py
+: 1698831747:0;catkin_make
+: 1698831759:0;rosrun laser_go laser_go_new
+: 1698831771:0;python3 auto_nav.py
+: 1698832124:0;catkin_make
+: 1698832140:0;rosrun laser_go laser_go_new
+: 1698832146:0;python3 auto_nav.py
+: 1698832328:0;rosrun laser_go laser_go_new
+: 1698832332:0;python3 auto_nav.py
+: 1698832495:0;pip3 list
+: 1698832522:0;pip3 list | grep yaml
+: 1698832722:0;catkin_make
+: 1698832736:0;rosrun laser_go laser_go_new
+: 1698832747:0;python3 auto_nav.py
+: 1698833866:0;roslaunch racecar Run_car.launch
+: 1698833887:0;roslaunch racecar amcl_nav_teb.launch
+: 1698833997:0;ls
+: 1698834011:0;cd car2023_ws
+: 1698834014:0;catkin_make
+: 1698834029:0;roslaunch racecar Run_car.launch
+: 1698834035:0;roslaunch racecar amcl_nav_teb.launch
+: 1698834144:0;roscd teb_local_planner
+: 1698834244:0;sudo poweroff
+: 1698835089:0;rospack plugins --attrib=plugin nav_core
+: 1698835241:0;bash
+: 1698835347:0;sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential\
+
+: 1698835462:0;./cfw
+: 1698835705:0;ifconfig
+: 1698835842:0;sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential\
+
+: 1698835903:0;sudo apt install python3-rosdep\
+
+: 1698835925:0;sudo rosdep init
+: 1698835939:0;rm -rf /etc/ros/rosdep/sources.list.d/20-default.list
+: 1698835945:0;sudo rm -rf /etc/ros/rosdep/sources.list.d/20-default.list
+: 1698835947:0;sudo rosdep init
+: 1698835956:0;rosdep update
+: 1698836028:0;rosdep check teb_local_planner
+: 1698836304:0;mkdir teb
+: 1698836305:0;ls
+: 1698836307:0;cd teb
+: 1698836307:0;ls
+: 1698836320:0;git clone https://github.com/rst-tu-dortmund/teb_local_planner
+: 1698836395:0;git checkout  noetic-devel
+: 1698836401:0;cd teb_local_planner
+: 1698836404:0;git checkout  noetic-devel
+: 1698836429:0;ls
+: 1698836432:0;catkin_make -DCATKIN_WHITELIST_PACKAGES="teb_local_planner"
+: 1698836439:0;cd ..
+: 1698836441:0;catkin_make -DCATKIN_WHITELIST_PACKAGES="teb_local_planner"
+: 1698836454:0;cd teb_local_planner
+: 1698836455:0;ls
+: 1698836457:0;cd src
+: 1698836458:0;ls
+: 1698836460:0;cd ..
+: 1698836496:0;rosdep install teb_local_planner
+: 1698836539:0;catkin_make -DCATKIN_WHITELIST_PACKAGES="teb_local_planner"
+: 1698836552:0;..
+: 1698836554:0;catkin_make -DCATKIN_WHITELIST_PACKAGES="teb_local_planner"
+: 1698836576:0;ls
+: 1698836589:0;mkdir src
+: 1698836605:0;mv -r teb_local_planner src
+: 1698836623:0;catkin_make -DCATKIN_WHITELIST_PACKAGES="teb_local_planner"
+: 1698836653:0;rosdep install --from-paths src --ignore-src --rosdistro=noetic -y\
+
+: 1698836683:0;catkin_make -DCATKIN_WHITELIST_PACKAGES="teb_local_planner" -j4
+: 1698836731:0;sudo apt update --fix-missing
+: 1698836763:0;sudo apt upgrade --fix-missing
+: 1698837616:0;ls
+: 1698837625:0;rm -rf build devel
+: 1698837626:0;ls
+: 1698837635:0;rosdep install --from-paths src --ignore-src --rosdistro=noetic -y\
+
+: 1698837670:0;catkin_make
+: 1698837793:0;rospack plugins --attrib=plugin nav_core\
+
+: 1698837816:0;rosdep check teb_local_planner\
+
+: 1698837823:0;rosdep install teb_local_planner\
+
+: 1698837861:0;rosdep install --from-paths src --ignore-src --rosdistro=noetic -y\
+
+: 1698837877:0;catkin_make -DCATKIN_WHITELIST_PACKAGES="teb_local_planner"
+: 1698837886:0;rospack plugins --attrib=plugin nav_core\
+
+: 1698837914:0;source ./devel/setup.bash
+: 1698837918:0;ls
+: 1698837924:0;source devel/setup.zsh
+: 1698837927:0;rospack plugins --attrib=plugin nav_core\
+
+: 1698837947:0;rosdep check teb_local_planner\
+
+: 1698837952:0;rosdep install teb_local_planner\
+
+: 1698838017:0;reboot
+: 1698838048:0;rospack plugins --attrib=plugin nav_core\
+
+: 1698838080:0;rosdep check teb_local_planner\
+
+: 1698838130:0;./cfw
+: 1698838194:0;vim .zshrc
+: 1698838220:0;cd teb
+: 1698838221:0;ls
+: 1698838224:0;cd devel
+: 1698838226:0;pwd
+: 1698838243:0;zsh
+: 1698838250:0;vim .zshrc
+: 1698838257:0;zsh
+: 1698838260:0;rosdep check teb_local_planner\
+
+: 1698838269:0;rospack plugins --attrib=plugin nav_core\
+
+: 1698838342:0;cd teb
+: 1698838344:0;rosdep install --from-paths src --ignore-src --rosdistro=noetic -y\
+
+: 1698838355:0;rospack plugins --attrib=plugin nav_core\
+
+: 1698838360:0;zsh
+: 1698838362:0;rospack plugins --attrib=plugin nav_core\
+
+: 1698838434:0;rosdep check teb_local_planner\
+
+: 1698838449:0;/opt/ros/noetic/share
+: 1698838450:0;ls
+: 1698838479:0;mkdir -p teb_local_planner/src
+: 1698838485:0;sudo mkdir -p teb_local_planner/src
+: 1698838504:0;git clone https://github.com/rst-tu-dortmund/teb_local_planner_tutorials.git
+: 1698838510:0;sudo git clone https://github.com/rst-tu-dortmund/teb_local_planner_tutorials.git
+: 1698838521:0;ls
+: 1698838527:0;cd teb_local_planner
+: 1698838527:0;ls
+: 1698838531:0;cd src
+: 1698838533:0;git clone https://github.com/rst-tu-dortmund/teb_local_planner_tutorials.git
+: 1698838538:0;sudo git clone https://github.com/rst-tu-dortmund/teb_local_planner_tutorials.git
+: 1698838591:0;rosdep install teb_local_planner\
+
+: 1698838631:0;rospack plugins --attrib=plugin nav_core\
+
+: 1698838637:0;source devel/setup.zsh
+: 1698838639:0;rospack plugins --attrib=plugin nav_core\
+
+: 1698838663:0;cat ~/.zshrc
+: 1698838676:0;ls
+: 1698838678:0;rospack plugins --attrib=plugin nav_core\
+
+: 1698838828:0;sudo apt install ros-noetic-teb-local-planner
+: 1698838855:0;vim ~/.zshrc
+: 1698838867:0;zsh
+: 1698838869:0;rospack plugins --attrib=plugin nav_core\
+
+: 1698838916:0;roslaunch racecar Run_car.launch
+: 1698838954:0;roslaunch racecar amcl_nav_teb.launch
+: 1698838985:0;sudo poweroff
+: 1698839261:0;roslaunch racecar amcl_nav_teb.launch
+: 1698839300:0;roslaunch racecar Run_car.launch
+: 1698839521:0;/bin/python3 /home/scnu-car/car2023_ws/src/racecar/src/siftmatch/siftparkvideoreal.py
+: 1698839625:0;pip3 list | grep cv
+: 1698839644:0;pip ls
+: 1698839651:0;pip list
+: 1698839674:0;pip list | grep cv
+: 1698840306:0;roslaunch racecar Run_car.launch
+: 1698840314:0;roslaunch racecar amcl_nav_teb.launch
+: 1698841556:0;rosrun laser_go laser_go_new
+: 1698841584:0;python3 auto_nav.py
+: 1698841840:0;rosrun laser_go laser_go_new
+: 1698841567:0;python3 auto_nav.py
+: 1698841846:0;python3 auto_nav.py
+: 1698842266:0;rosrun laser_go laser_go_new
+: 1698842274:0;python3 auto_nav.py
+: 1698842574:0;rosrun laser_go laser_go_new
+: 1698842582:0;python3 auto_nav.py
+: 1698842712:0;catkin_make
+: 1698842844:0;rosrun laser_go laser_go_new
+: 1698842856:0;python3 auto_nav.py
+: 1698843065:0;rosrun laser_go laser_go_new
+: 1698843072:0;python3 auto_nav.py
+: 1698843232:0;rosrun laser_go laser_go_new
+: 1698843237:0;python3 auto_nav.py
+: 1698843429:0;rosrun laser_go laser_go_new
+: 1698843435:0;python3 auto_nav.py
+: 1698843673:0;rosrun laser_go laser_go_new
+: 1698843682:0;python3 auto_nav.py
+: 1698843878:0;pip3 list
+: 1698844716:0;roslaunch racecar Run_car.launch
+: 1698844763:0;rosrun laser_go laser_go_new
+: 1698844770:0;python3 auto_nav.py
+: 1698844944:0;rosrun laser_go laser_go_new
+: 1698844968:0;catkin_make
+: 1698844991:0;rosrun laser_go laser_go_new
+: 1698845000:0;python3 auto_nav.py
+: 1698845099:0;catkin_make
+: 1698845168:0;rosrun laser_go laser_go_new
+: 1698845189:0;python3 auto_nav.py
+: 1698845530:0;roslaunch encoder_driver wheel_odom.launch
+: 1698845624:0;cd ./car2023_ws
+: 1698845627:0;catkin_make
+: 1698845651:0;cd ..
+: 1698845667:0;roslaunch racecar Run_car.launch
+: 1698845928:0;catkin_make
+: 1698845969:0;roslaunch racecar Run_car.launch
+: 1698845989:0;rosrun laser_go laser_go_new
+: 1698846096:0;roslaunch racecar Run_car.launch
+: 1698846108:0;rosrun laser_go laser_go_new
+: 1698846150:0;roslaunch racecar Run_car.launch
+: 1698846155:0;rosrun laser_go laser_go_new
+: 1698846190:0;catkin_make
+: 1698846200:0;rosrun laser_go laser_go_new
+: 1698846207:0;roslaunch racecar Run_car.launch
+: 1698846210:0;rosrun laser_go laser_go_new
+: 1698846255:0;catkin_make
+: 1698846264:0;rosrun laser_go laser_go_new
+: 1698846269:0;roslaunch racecar Run_car.launch
+: 1698846272:0;rosrun laser_go laser_go_new
+: 1698846293:0;catkin_make
+: 1698846303:0;rosrun laser_go laser_go_new
+: 1698846322:0;catkin_make
+: 1698846333:0;rosrun laser_go laser_go_new
+: 1698846378:0;catkin_make
+: 1698846389:0;rosrun laser_go laser_go_new
+: 1698846477:0;catkin_make
+: 1698846487:0;rosrun laser_go laser_go_new
+: 1698846554:0;catkin_make
+: 1698846566:0;rosrun laser_go laser_go_new
+: 1698846656:0;catkin_make
+: 1698846683:0;rosrun laser_go laser_go_new
+: 1698846848:0;catkin_make
+: 1698846858:0;rosrun laser_go laser_go_new
+: 1698846934:0;catkin_make
+: 1698846944:0;rosrun laser_go laser_go_new
+: 1698847065:0;catkin_make
+: 1698847080:0;rosrun laser_go laser_go_new
+: 1698847466:0;catkin_make
+: 1698847476:0;rosrun laser_go laser_go_new
+: 1698847644:0;catkin_make
+: 1698847655:0;rosrun laser_go laser_go_new
+: 1698847683:0;catkin_make
+: 1698847694:0;rosrun laser_go laser_go_new
+: 1698847976:0;catkin_make
+: 1698847985:0;rosrun laser_go laser_go_new
+: 1698848084:0;catkin_make
+: 1698848094:0;rosrun laser_go laser_go_new
+: 1698848159:0;catkin_make
+: 1698848169:0;rosrun laser_go laser_go_new
+: 1698848548:0;catkin_make
+: 1698848561:0;rosrun laser_go laser_go_new
+: 1698848705:0;catkin_make
+: 1698848716:0;rosrun laser_go laser_go_new
+: 1698848854:0;catkin_make
+: 1698848863:0;rosrun laser_go laser_go_new
+: 1698849028:0;poweroff
+: 1698895686:0;ls
+: 1698895698:0;gedit .zshrc
+: 1698895827:0;.zshrc
+: 1698895834:0;gedit .zshrc
+: 1698895843:0;vim ~/.zshrc
+: 1698895889:0;poweroff
+: 1698903110:0;roscore
+: 1698903129:0;roslaunch racecar Run_car.launch
+: 1698903214:0;roslaunch racecar Run_car.launch imu_package:=
+: 1698903257:0;roslaunch racecar Run_car.launch
+: 1698903300:0;python3 lase2PC2.py
+: 1698903513:0;roslaunch racecar Run_car.launch
+: 1698903521:0;python3 lase2PC2.py
+: 1698903663:0;roslaunch racecar Run_car.launch
+: 1698903745:0;catkin_make
+: 1698904072:0;roslaunch racecar Run_car.launch
+: 1698904243:0;python3 lase2PC2.py
+: 1698904309:0;python3 lase2PC3.py
+: 1698904331:0;python3 Auto_Car_Run.py
+: 1698904517:0;python3 visual_Auto_AI.py
+: 1698904623:0;python3 Auto_Car_Run.py
+: 1698904774:0;python3 lase2PC3.py
+: 1698904789:0;python3 Auto_Car_Run.py
+: 1698904949:0;python3 lase2PC3.py
+: 1698904971:0;python3 Auto_Car_Run.py
+: 1698905080:0;python3 lase2PC3.py
+: 1698905094:0;python3 Auto_Car_Run.py
+: 1698905682:0;roslaunch racecar Run_gmapping_dl.launch
+: 1698905765:0;python3 Auto_Car_Run.py
+: 1698907824:0;roscore
+: 1698907857:0;roslaunch racecar Run_car.launch
+: 1698907908:0;python3 lase2PC2.py
+: 1698908091:0;python3 Auto_Car_Run.py
+: 1698908149:0;roslaunch racecar Run_gmapping_dl.launch
+: 1698908238:0;python3 Auto_Car_Run.py
+: 1698911299:0;python3 lase2PC2.py
+: 1698913283:0;python3 lase2PC3.py
+: 1698914662:0;poweroff
+: 1698919210:0;roscore
+: 1698919221:0;roslaunch racecar Run_car.launch
+: 1698919244:0;python3 lase2PC.py
+: 1698922606:0;python3 Auto_Car_Run.py
+: 1698922621:0;roscore
+: 1698922636:0;roslaunch racecar Run_car.launch
+: 1698922647:0;python3 Auto_Car_Run.py
+: 1698922879:0;roscore
+: 1698922888:0;roslaunch racecar Run_car.launch
+: 1698922904:0;roslaunch racecar Run_gmapping_dl.launch
+: 1698922942:0;rosrun rqt_tf_tree rqt_tf_tree
+: 1698923863:0;python3 Auto_Car_Run.py
+: 1698923878:0;roscore
+: 1698923881:0;roslaunch racecar Run_car.launch
+: 1698923891:0;python3 Auto_Car_Run.py
+: 1698923918:0;roslaunch racecar Run_gmapping_dl.launch
+: 1698924111:0;python3 Auto_Car_Run.py
+: 1698924212:0;roslaunch racecar amcl_nav_dl.launch
+: 1698927254:0;ls
+: 1698927282:0;ifconfig
+: 1698928709:0;code .
+: 1698928896:0;/bin/python3 /home/scnu-car/car2023_ws/src/racecar/src/parking_py/parking.py
+: 1698928949:0;ls
+: 1698928973:0;cd parking_py
+: 1698928975:0;ls
+: 1698928985:0;python3 parking.py
+: 1698929246:0;cd `
+: 1698929255:0;cd ~
+: 1698929256:0;ls
+: 1698929286:0;./cfw
+: 1698929627:0;./Parking_V1
+: 1698929850:0;ls
+: 1698929855:0;cd parking_py
+: 1698929856:0;ls
+: 1698929861:0;python3 parking.py
+: 1698929871:0;/bin/python3 /home/scnu-car/car2023_ws/src/racecar/src/parking_py/parking.py
+: 1698930173:0;/bin/python3 /home/scnu-car/car2023_ws/src/racecar/src/siftmatch/siftparkvideoreal.py
+: 1698930434:0;history | grep opencv-python
+: 1698930587:0;python3
+: 1698930938:0;pip install opencv-contrib-python==<3.4.2.16>
+: 1698930977:0;pip install opencv-contrib-python
+: 1698931546:0;pip install opencv-python
+: 1698931559:0;ping baidu.com
+: 1698931796:0;find opencv-python
+: 1698931820:0;find opencv
+                       : 1698932751:0;ping baidu.com
+: 1698932758:0;ls
+: 1698932776:0;cat scnucar_ws
+: 1698932784:0;cd scnu-car
+: 1698932789:0;pwd
+: 1698932800:0;clear
+: 1698932806:0;cat .zsh_history
+: 1698932825:0;ping baidu.com
+: 1698932861:0;sudo install locate
+: 1698932873:0;locate opencv
+: 1698932894:0;history | grep opencv-python
+: 1698932904:0;history | grep install
+: 1698932915:0;sudo apt install locate
+: 1698932954:0;locate opencv-python
+: 1698932962:0;pip install opencv-python
+: 1698932977:0;history | grep opencv-python
+: 1698933059:0;pip install opencv-contrib-python
+: 1698933071:0;ping baidu.com
+: 1698933106:0;pip install opencv-contrib-python
+: 1698933239:0;pip install -i http://pypi.tuna..tsinghua.edu.cn/simple --trusted-host pypi.tuna.tsinghua.edu.cn opencv-python
+: 1698933351:0;pip install opencv-contrib-python
+: 1698933374:0;pip install opencv-contrib-python3
+: 1698933384:0;pip3 install opencv-contrib-python
+: 1698933419:0;pip3 
+: 1698933503:0;python3 -m pip install --upgrade pip
+: 1698933531:0;sudo python3 -m pip install --upgrade pip
+: 1698933618:0;sudo apt-get install python-pip
+: 1698933628:0;sudo apt-get install python3-pip
+: 1698933688:0;python3 -m pip install --upgrade pip
+: 1698933704:0;ping baidu.com
+: 1698933727:0;python3 -m pip install --upgrade pip
+: 1698933739:0;cd ÊÉÅÉ¨ÈÉΩÉÇ
+: 1698933741:0;ls
+: 1698933745:0;cd Clash\ for\ Windows-0.19.23-x64-linux
+: 1698933750:0;./cfw
+: 1698933794:0;python3 -m pip install --upgrade pip
+: 1698933821:0;pwd
+: 1698933830:0;pip3 install opencv-python
+: 1698933987:0;pip3 install opencv-contrib-python
+: 1698934257:0;ls
+: 1698934263:0;cd car2023_ws
+: 1698934264:0;ls
+: 1698934267:0;cd src
+: 1698934269:0;ls
+: 1698934273:0;cd racecar
+: 1698934274:0;ls
+: 1698934277:0;cd src
+: 1698934279:0;ls
+: 1698934298:0;cd parking_py
+: 1698934299:0;ls
+: 1698934306:0;python3 parking.py
+: 1698934357:0;ls
+: 1698934358:0;cd ..
+: 1698934360:0;ls
+: 1698934364:0;cd sift
+: 1698934368:0;cd siftmatch
+: 1698934371:0;ls
+: 1698934380:0;python3 siftparkvideoreal.py
+: 1698934748:0;cat siftparkvideoreal.py
+: 1698934757:0;python3 siftparkvideoreal.py
+: 1698934838:0;cd ..
+: 1698934843:0;code .
+: 1698934892:0;z siftmatch
+: 1698934899:0;cd car2023_ws
+: 1698934902:0;cd src
+: 1698934909:0;cd racecar
+: 1698934928:0;ls
+: 1698934931:0;cd src
+: 1698934933:0;ls
+: 1698934936:0;cd siftmatch
+: 1698934938:0;ls
+: 1698934945:0;python3 siftparkvideoreal.py
+: 1698935031:0;cat siftparkvideoreal.py
+: 1698935037:0;vim siftparkvideoreal.py
+: 1698935199:0;ls
+: 1698935214:0;cd car2023_ws
+: 1698935217:0;ls
+: 1698935222:0;cd car2023_ws
+: 1698935232:0;cd racecar
+: 1698935236:0;cd src
+: 1698935238:0;ls
+: 1698935243:0;cd siftmatch
+: 1698935244:0;ls
+: 1698935253:0;vim siftparkvideoreal.py
+: 1698935479:0;python3 siftparkvideoreal.py
+: 1698935828:0;sudo poweroff
+: 1699001755:0;catkin_make
+: 1699001891:0;roslaunch racecar Run_car.launch
+: 1699002347:0;python3 mapBlur_oncar.py
+: 1699002427:0;cp ~/.zsh_history zsh_history

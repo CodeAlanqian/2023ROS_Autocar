@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="serial_imu" name="HI226" type="serial_imu" />
+	<node pkg="rviz" name="rviz_hi226" type="rviz" />
+    <node pkg="tf2_ros" type="static_transform_publisher" name="robot_tf_publisher" args="0 0 0 0 0 0 map base_link" />
+</launch>

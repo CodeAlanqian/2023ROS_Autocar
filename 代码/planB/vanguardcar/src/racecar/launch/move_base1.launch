@@ -1,0 +1,35 @@
+<launch>
+    <!-- Navstack -->
+    <node pkg="move_base" type="move_base" respawn="false" name="move_base">
+        <!-- local planner -->
+      
+        <!-- <param name="base_global_planner" value="navfn/NavfnROS"/>   -->
+        <param name="base_global_planner" value="navfn/NavfnROS"/>  
+        <param name="base_local_planner" value="teb_local_planner/TebLocalPlannerROS"/>  
+        <rosparam file="$(find racecar)/param/teb/teb/teb_local_planner_params.yaml" command="load"/>
+         <!-- LOAD COSTMAP_CONVERTER PARAMETERS HERE -->
+        <!-- <rosparam file="$(find racecar)/param/teb/teb/costmap_converter_params.yaml" command="load" /> -->
+        <!-- costmap layers -->    
+        <rosparam file="$(find racecar)/param/teb/local_costmap_params.yaml" command="load"/>
+        <rosparam file="$(find racecar)/param/teb/global_costmap_params.yaml" command="load"/> 
+        <!-- move_base params -->
+        <rosparam file="$(find racecar)/param/teb/base_global_planner_params.yaml" command="load"/>
+        <rosparam file="$(find racecar)/param/teb/move_base_params.yaml" command="load"/>
+    </node>
+
+    <node pkg="racecar" type="car_controller_new" respawn="false" name="car_controller">     
+       
+        <param name="Vcmd" value="1.5" /> <!--speed of car m/s      1.5   -->
+        <!-- ESC -->
+        <param name="baseSpeed" value="200"/> 
+        <param name="baseAngle" value="0.0"/> 
+        <param name="Angle_gain_p" value="-5.5"/> 
+        <param name="Angle_gain_d" value="-3.0"/> 
+        <!-- <param name="Lfw" value="1.25"/>  -->
+        <param name="Lfw" value="1.65"/> 
+        <param name="vp_max_base" value="460"/> 
+        <param name="vp_min" value="460"/> 
+        <param name="goalRadius" value="0.5"/> 
+
+    </node>
+</launch>

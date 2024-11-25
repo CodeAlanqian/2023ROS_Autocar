@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="serial_imu" name="imu_sonser_0x62" type="serial_imu"/>
+	<node pkg="serial_imu" name="sub_0x62" type="sub_0x62" output="screen"/>
+
+</launch>

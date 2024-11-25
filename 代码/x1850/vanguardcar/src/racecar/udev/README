@@ -1,0 +1,3 @@
+#添加Racecar的USB设备,使用如下指令:
+sudo bash racecar_init.sh
+然后重启电脑

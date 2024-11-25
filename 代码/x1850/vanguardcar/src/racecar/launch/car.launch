@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<launch>
+    <master auto="start"/>
+
+    <!-- TF setting -->
+    <include file="$(find racecar)/launch/includes/car_tf.launch.xml" />
+
+    <!-- Car -->
+    <node pkg="racecar_driver" type="racecar_driver_node" name="racecar_driver_node"/>
+  
+
+
+</launch>
+

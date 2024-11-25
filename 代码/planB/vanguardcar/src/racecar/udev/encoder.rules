@@ -1,0 +1,4 @@
+# set the udev rule , make the device_port be fixed by arduino
+#
+KERNELS=="2-6:1.0", MODE:="666", SYMLINK+="encoder"
+

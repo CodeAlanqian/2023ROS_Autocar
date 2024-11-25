@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="serial_imu" name="HI226" type="serial_imu" />
+	<node pkg="serial_imu" name="display_3D_node" type="display_3D_node.py" output="screen"/>
+		
+</launch>

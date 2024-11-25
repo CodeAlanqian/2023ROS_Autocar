@@ -1,0 +1,7 @@
+# set the udev rule , make the device_port be fixed by hi226
+#
+KERNEL=="ttyUSB*", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", MODE:="666", SYMLINK+="imu"
+
+# set the udev rule , make the device_port be fixed by sanchi_imu
+#
+
